@@ -44,8 +44,8 @@ AND Flag_CurrentStep = 'Audit Completed - Audit Report Posted'
 
 <!--- copy Audit Report Posted file to TempUpload --->
 <CFFILE action="copy"
-    source="d:\webserver\corporate\home\departments\snk5212\IQA\TechAuditReports\#URL.Year#-#URL.ID#\#getFile.reportFileName#"
-    destination="d:\webserver\corporate\home\departments\snk5212\IQA\TechAuditReports\TempUpload\">
+    source="#request.applicationFolder#\corporate\home\departments\snk5212\IQA\TechAuditReports\#URL.Year#-#URL.ID#\#getFile.reportFileName#"
+    destination="#request.applicationFolder#\corporate\home\departments\snk5212\IQA\TechAuditReports\TempUpload\">
     
 <cfoutput>
 <cfset FindExtLocation = #Find(".", getFile.reportFileName)#>
@@ -55,5 +55,5 @@ AND Flag_CurrentStep = 'Audit Completed - Audit Report Posted'
 
 <!--- rename/move the file from TempUpload to audit folder and name it with current action (Non-Conformance Review Completed) --->
 <CFFILE action="rename"
-    source="d:\webserver\corporate\home\departments\snk5212\IQA\TechAuditReports\TempUpload\#getFile.reportFileName#"
-    destination="d:\webserver\corporate\home\departments\snk5212\IQA\TechAuditReports\#URL.Year#-#URL.ID#\#Identifier#.#getFileExt#">
+    source="#request.applicationFolder#\corporate\home\departments\snk5212\IQA\TechAuditReports\TempUpload\#getFile.reportFileName#"
+    destination="#request.applicationFolder#\corporate\home\departments\snk5212\IQA\TechAuditReports\#URL.Year#-#URL.ID#\#Identifier#.#getFileExt#">

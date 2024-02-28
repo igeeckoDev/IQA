@@ -4,13 +4,13 @@
 
 <cffile 
 	action="copy" 
-	source="d:\webserver\Corpdb\iqa\IQADB.mdb"
-	destination="d:\webserver\corporate\home\departments\snk5212\BackupDB\IQADB.mdb" >
+	source="#request.applicationFolder#\Corpdb\iqa\IQADB.mdb"
+	destination="#request.applicationFolder#\corporate\home\departments\snk5212\BackupDB\IQADB.mdb" >
 
 <cffile 
 	action="rename" 
-	source="d:\webserver\corporate\home\departments\snk5212\BackupDB\IQADB.mdb"
-	destination="d:\webserver\corporate\home\departments\snk5212\BackupDB\IQADB_#Month#_#Day#_#Year#_Manual.mdb">
+	source="#request.applicationFolder#\corporate\home\departments\snk5212\BackupDB\IQADB.mdb"
+	destination="#request.applicationFolder#\corporate\home\departments\snk5212\BackupDB\IQADB_#Month#_#Day#_#Year#_Manual.mdb">
 
 <cflog application="no" 
 	   file="iqaBackups" 
@@ -28,7 +28,7 @@
 <body>
 <cfoutput>
 <p>Database Backed up.<br>
-Back up file d:\webserver\corporate\home\departments\snk5212\iqa\BackupDB\IQADB_#Month#_#Day#_#Year#.mdb created.</p>
+Back up file #request.applicationFolder#\corporate\home\departments\snk5212\iqa\BackupDB\IQADB_#Month#_#Day#_#Year#.mdb created.</p>
 </cfoutput>
 <br><br>
 

@@ -57,7 +57,7 @@ WHERE
 <!--- create directory name based on audit number --->
 <cfset newDirectory = "#URL.Year#-#URL.ID#">
 <!--- set current directory --->
-<cfset currentDirectory = "d:\webserver\corporate\home\departments\snk5212\IQA\TechAuditReports\#newDirectory#">
+<cfset currentDirectory = "#request.applicationFolder#\corporate\home\departments\snk5212\IQA\TechAuditReports\#newDirectory#">
 
 <!--- check if the directory DOES NOT exist, if it DOES exist - DO NOTHING --->
 <cfif NOT DirectoryExists(currentDirectory)>
@@ -123,8 +123,8 @@ WHERE
         
                 <!--- copy Audit Report Posted file to TempUpload --->
                 <CFFILE action="copy"
-                    source="d:\webserver\corporate\home\departments\snk5212\IQA\TechAuditReports\#URL.Year#-#URL.ID#\#getFile.reportFileName#"
-                    destination="d:\webserver\corporate\home\departments\snk5212\IQA\TechAuditReports\TempUpload\">
+                    source="#request.applicationFolder#\corporate\home\departments\snk5212\IQA\TechAuditReports\#URL.Year#-#URL.ID#\#getFile.reportFileName#"
+                    destination="#request.applicationFolder#\corporate\home\departments\snk5212\IQA\TechAuditReports\TempUpload\">
                     
                 <cfoutput>
                     <cfset FindExtLocation = #Find(".", getFile.reportFileName)#>
@@ -134,8 +134,8 @@ WHERE
                 
                 <!--- rename/move the file from TempUpload to audit folder and name it with current action (Non-Conformance Review Completed) --->
                 <CFFILE action="rename"
-                    source="d:\webserver\corporate\home\departments\snk5212\IQA\TechAuditReports\TempUpload\#getFile.reportFileName#"
-                    destination="d:\webserver\corporate\home\departments\snk5212\IQA\TechAuditReports\#URL.Year#-#URL.ID#\#Identifier#.#getFileExt#">
+                    source="#request.applicationFolder#\corporate\home\departments\snk5212\IQA\TechAuditReports\TempUpload\#getFile.reportFileName#"
+                    destination="#request.applicationFolder#\corporate\home\departments\snk5212\IQA\TechAuditReports\#URL.Year#-#URL.ID#\#Identifier#.#getFileExt#">
                     
                 <cfset NewFileName = "#Identifier#.#getFileExt#">
                 
@@ -187,8 +187,8 @@ WHERE
                     
                     <!--- rename the current file --->
                     <CFFILE action="rename"
-                        source="d:\webserver\corporate\home\departments\snk5212\IQA\TechAuditReports\#URL.Year#-#URL.ID#\#getFile.reportFileName#"
-                        destination="d:\webserver\corporate\home\departments\snk5212\IQA\TechAuditReports\#URL.Year#-#URL.ID#\#ReplacedFileName#">
+                        source="#request.applicationFolder#\corporate\home\departments\snk5212\IQA\TechAuditReports\#URL.Year#-#URL.ID#\#getFile.reportFileName#"
+                        destination="#request.applicationFolder#\corporate\home\departments\snk5212\IQA\TechAuditReports\#URL.Year#-#URL.ID#\#ReplacedFileName#">
                     
 					<!--- rename file in db --->
                     <CFQUERY BLOCKFACTOR="100" NAME="getFile" Datasource="UL06046" username="#OracleDB_Username#" password="#OracleDB_Password#">
@@ -206,7 +206,7 @@ WHERE
                     
                     <!---- set the path and set file name, using cffile.serverfileext from cffile above --->
                     <!--- upload corrective actions completed file - with new information --->
-                    <cfset destination="d:\webserver\corporate\home\departments\snk5212\IQA\TechAuditReports\#URL.Year#-#URL.ID#\#NotVerified_Identifier#.#cffile.ServerFileExt#">
+                    <cfset destination="#request.applicationFolder#\corporate\home\departments\snk5212\IQA\TechAuditReports\#URL.Year#-#URL.ID#\#NotVerified_Identifier#.#cffile.ServerFileExt#">
                     
                     <cfset newFileName = "#NotVerified_Identifier#.#cffile.ServerFileExt#">
                     
@@ -237,7 +237,7 @@ WHERE
                         NAMECONFLICT="OVERWRITE">
                     
                     <!---- set the path and set file name, using cffile.serverfileext from cffile above --->
-                    <cfset destination="d:\webserver\corporate\home\departments\snk5212\IQA\TechAuditReports\#URL.Year#-#URL.ID#\#Identifier#.#cffile.ServerFileExt#">
+                    <cfset destination="#request.applicationFolder#\corporate\home\departments\snk5212\IQA\TechAuditReports\#URL.Year#-#URL.ID#\#Identifier#.#cffile.ServerFileExt#">
                     
                     <cfset newFileName = "#Identifier#.#cffile.ServerFileExt#">
                     

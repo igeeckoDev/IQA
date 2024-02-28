@@ -21,7 +21,7 @@
 
 <cffunction name="onRequestStart" returnType="boolean" output="false">
 	<cfargument name="thePage" type="string" required="true">
-
+	<cfinclude template="../../environment.cfm">
 	<cfset Request.DSN = "CAR">
 	<cfset Request.IQA = "IQA">
 	<cfset Request.GCAR = "QE">
@@ -43,11 +43,11 @@
 	<cfset baseDir = replace(GetDirectoryFromPath(cgi.script_name), "\", "", "All")>
 	<cfset curdir = replace(GetDirectoryFromPath(cgi.script_name), "\", "", "All")>
 
-	<cfset CARRootPath = "d:\webserver\corporate\home\departments\snk5212\QE\">
+	<cfset CARRootPath = "#request.applicationFolder#\corporate\home\departments\snk5212\QE\">
 	<cfset CARRootDir = "/departments/snk5212/QE/">
 	<cfset CARAdminDir = "#CARrootDir#admin/">
 
-	<cfset IQARootPath = "d:\webserver\corporate\home\departments\snk5212\IQA\">
+	<cfset IQARootPath = "#request.applicationFolder#\corporate\home\departments\snk5212\IQA\">
 	<cfset IQArootDir = "/departments/snk5212/IQA/">
 	<cfset IQAAdminDir = "#IQArootDir#admin/">
 

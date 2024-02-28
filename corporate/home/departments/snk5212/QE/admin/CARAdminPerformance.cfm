@@ -25,12 +25,12 @@ SELECT MAX(ID) as CurID, MAX(ID)+1 as MaxID FROM CARAdminPerformance
 </CFQUERY>
 
 <CFFILE Action="rename" 
-source="d:\webserver\corporate\home\departments\snk5212\QE\admin\CARAdminPerformance\CARAdminPerformance.xls" 
-destination="d:\webserver\corporate\home\departments\snk5212\QE\admin\CARAdminPerformance\CARAdminPerformance#MaxID.CurID#.xls">
+source="#request.applicationFolder#\corporate\home\departments\snk5212\QE\admin\CARAdminPerformance\CARAdminPerformance.xls" 
+destination="#request.applicationFolder#\corporate\home\departments\snk5212\QE\admin\CARAdminPerformance\CARAdminPerformance#MaxID.CurID#.xls">
 
 <CFFILE ACTION="UPLOAD" 
 FILEFIELD="e_AttachA" 
-DESTINATION="d:\webserver\corporate\home\departments\snk5212\QE\admin\CARAdminPerformance\" 
+DESTINATION="#request.applicationFolder#\corporate\home\departments\snk5212\QE\admin\CARAdminPerformance\" 
 NAMECONFLICT="OVERWRITE">
 
 <cfset FileName="#Form.e_AttachA#">
@@ -40,7 +40,7 @@ NAMECONFLICT="OVERWRITE">
 <cffile
     action="rename"
     source="#FileName#"
-    destination="d:\webserver\corporate\home\departments\snk5212\QE\admin\CARAdminPerformance\#NewFileName#">
+    destination="#request.applicationFolder#\corporate\home\departments\snk5212\QE\admin\CARAdminPerformance\#NewFileName#">
     
 <CFQUERY DataSource="Corporate" Name="FileSettingsAdd">
 INSERT INTO CARAdminPerformance(ID)

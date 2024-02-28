@@ -6,7 +6,7 @@
 	<cfset Request.AdminMenu = "menu.cfm">
     <!--- /// --->
     
-    <cfset REQUEST.CARAdminFilesPath = "d:\webserver\corporate\home\departments\snk5212\QE\admin\CARAdmin\">
+    <cfset REQUEST.CARAdminFilesPath = "#request.applicationFolder#\corporate\home\departments\snk5212\QE\admin\CARAdmin\">
 
 	<cfif SUPER.OnRequestStart( ARGUMENTS.Page )>
     <!--- Store the sub root directory folder. --->

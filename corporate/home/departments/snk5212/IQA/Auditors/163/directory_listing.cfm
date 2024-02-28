@@ -1,5 +1,5 @@
 <cfset Self = GetFileFromPath(cgi.CF_TEMPLATE_PATH)>
-<cfset DirToList = "d:\webserver\corporate\home\departments\snk5212\IQA\Auditors\#Profile.ID#\">
+<cfset DirToList = "#request.applicationFolder#\corporate\home\departments\snk5212\IQA\Auditors\#Profile.ID#\">
 <cfset UpOneDir = ListDeleteAt(DirToList, ListLen(DirToList, "\"), "\") & "\" & self>
 <cfdirectory action="list" directory="#DirToList#" name="DirListing">
 <html>

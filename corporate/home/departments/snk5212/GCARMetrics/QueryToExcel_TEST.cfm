@@ -248,7 +248,7 @@ ORDER BY CARNumber
 <cfoutput>
 <!--- Create the file name --->
 <cfset fileName = "GCAROutput_#dateformat(now(), "yyyyMMMdd")#_#timeformat(now(), "hhmmsstt")#">
-<cfset fileLocation = "d:\webserver\corporate\home\departments\snk5212\GCARMetrics\xls\">
+<cfset fileLocation = "#request.applicationFolder#\corporate\home\departments\snk5212\GCARMetrics\xls\">
 <cfset theFile = "#fileLocation##fileName#.xls">
 </cfoutput>
 

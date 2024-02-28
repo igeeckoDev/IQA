@@ -31,7 +31,7 @@
 <cfset carbackupdir = "../BackupDB/">
 <cfset fullBaseDir = "../">
 <cfset fullBaseIQADir = "../../IQA/">
-<cfset fullBaseIQADir2 = "D:\webserver\corporate\home\depts\snk5212\IQA\">
+<cfset fullBaseIQADir2 = "#request.applicationFolder#\corporate\home\depts\snk5212\IQA\">
 
 <cfset Request.DSN = "CAR">
 <cfset Request.IQA = "IQA">

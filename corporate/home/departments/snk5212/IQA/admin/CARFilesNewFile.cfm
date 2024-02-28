@@ -41,7 +41,7 @@ WHERE FileLabel = '#Form.FileTitle#'
 
 	<CFFILE ACTION="UPLOAD"
 	FILEFIELD="AttachA"
-	DESTINATION="d:\webserver\corporate\home\departments\snk5212\QE\QEFiles\"
+	DESTINATION="#request.applicationFolder#\corporate\home\departments\snk5212\QE\QEFiles\"
 	NAMECONFLICT="OVERWRITE">
 
 	<cfset FileName="#Form.AttachA#">
@@ -51,7 +51,7 @@ WHERE FileLabel = '#Form.FileTitle#'
 	<cffile
 	    action="rename"
 	    source="#FileName#"
-	    destination="d:\webserver\corporate\home\departments\snk5212\QE\QEFiles\#NewFileName#">
+	    destination="#request.applicationFolder#\corporate\home\departments\snk5212\QE\QEFiles\#NewFileName#">
 
 	<cflock scope="Session" timeout="6">
 	    <CFQUERY DataSource="Corporate" Name="FileSettingsAdd">

@@ -19,7 +19,7 @@ ORDER BY
 <cfset filename="Accreditations_#dateformat(now(), "yyyyMMMdd")#_#timeformat(now(), "hhmmsstt")#">
 
 <!--- Write to the file --->
-<cffile action="WRITE" file="d:\webserver\corporate\home\departments\snk5212\IQA\admin\AccredLocations\xls\#filename#.cfm" output="
+<cffile action="WRITE" file="#request.applicationFolder#\corporate\home\departments\snk5212\IQA\admin\AccredLocations\xls\#filename#.cfm" output="
 <cfcontent type='application/vnd.ms-excel'>
 <table border='1'>
 <tr align='center' style='font-family:Arial, Helvetica, sans-serif; font-size:12px'> 
@@ -45,7 +45,7 @@ ORDER BY
 <cfset Dump = #replace(IQANotes, "<br /><br />", " || ",  "All")#>
 <cfset Dump1 = #replace(Dump, "<br />", " | ", "All")#>
 
-<cffile action="APPEND" file="d:\webserver\corporate\home\departments\snk5212\IQA\admin\AccredLocations\xls\#filename#.cfm" output=" 
+<cffile action="APPEND" file="#request.applicationFolder#\corporate\home\departments\snk5212\IQA\admin\AccredLocations\xls\#filename#.cfm" output=" 
 <tr valign='top' align='left' style='font-family:Arial, Helvetica, sans-serif; font-size:12px'>
 <td>#Accreditor#</td>
 <td>#OfficeName#</td>
@@ -64,7 +64,7 @@ ORDER BY
 
 <!--- end your table in the file --->
 <cfoutput>
-<cffile action="Append" file="d:\webserver\corporate\home\departments\snk5212\IQA\admin\AccredLocations\xls\#filename#.cfm" output="
+<cffile action="Append" file="#request.applicationFolder#\corporate\home\departments\snk5212\IQA\admin\AccredLocations\xls\#filename#.cfm" output="
 </table> " addnewline="Yes">
 
 #filename#.xls has been generated<br>

@@ -7,7 +7,7 @@
 
 <CFFILE ACTION="UPLOAD" 
 FILEFIELD="e_File" 
-DESTINATION="d:\webserver\corporate\home\departments\snk5212\IQA\FSPlan\" 
+DESTINATION="#request.applicationFolder#\corporate\home\departments\snk5212\IQA\FSPlan\" 
 NAMECONFLICT="OVERWRITE">
 
 <cfset FileName="#Form.e_File#">
@@ -17,7 +17,7 @@ NAMECONFLICT="OVERWRITE">
 <cffile
 action="rename"
 source="#FileName#"
-destination="d:\webserver\corporate\home\departments\snk5212\IQA\FSPlan\#NewFileName#">
+destination="#request.applicationFolder#\corporate\home\departments\snk5212\IQA\FSPlan\#NewFileName#">
 
 <CFQUERY BLOCKFACTOR="100" NAME="MaxID" DataSource="Corporate">
 SELECT MAX(ID)+1 as MaxID FROM FSPlan

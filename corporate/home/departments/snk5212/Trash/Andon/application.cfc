@@ -21,7 +21,7 @@
 
 <cffunction name="onRequestStart" returnType="boolean" output="false">
 	<cfargument name="thePage" type="string" required="true"> 
-
+	<cfinclude template="../../environment.cfm">
     <cfset Request.ErrorMailTo = "Christopher.J.Nicastro@ul.com">
     <cfset Request.AlertEmail = "global.internalquality@ul.com">
     
@@ -33,15 +33,15 @@
 	<cfset baseDir = replace(GetDirectoryFromPath(cgi.script_name), "\", "", "All")>
 	<cfset curdir = replace(GetDirectoryFromPath(cgi.script_name), "\", "", "All")>
     
-	<cfset CARRootPath = "d:\webserver\corporate\home\depts\snk5212\QE\">
+	<cfset CARRootPath = "#request.applicationFolder#\corporate\home\depts\snk5212\QE\">
 	<cfset CARRootDir = "/departments/snk5212/QE/">	
     <cfset CARAdminDir = "#CARrootDir#admin/">
 	
-    <cfset IQARootPath = "d:\webserver\corporate\home\depts\snk5212\IQA\">    
+    <cfset IQARootPath = "#request.applicationFolder#\corporate\home\depts\snk5212\IQA\">    
     <cfset IQArootDir = "/departments/snk5212/IQA/">
     <cfset IQAAdminDir = "#IQArootDir#admin/">
     
-    <cfset AndonRootPath = "d:\webserver\corporate\home\depts\snk5212\Andon\">    
+    <cfset AndonRootPath = "#request.applicationFolder#\corporate\home\depts\snk5212\Andon\">    
     <cfset AndonrootDir = "/departments/snk5212/Andon/">
     <cfset AndonAdminDir = "#AndonrootDir#admin/">
 

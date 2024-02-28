@@ -7,7 +7,7 @@
 
 <CFFILE ACTION="UPLOAD" 
 FILEFIELD="AgendaFile" 
-DESTINATION="d:\webserver\corporate\home\departments\snk5212\iqa\ScopeLetters\" 
+DESTINATION="#request.applicationFolder#\corporate\home\departments\snk5212\iqa\ScopeLetters\" 
 NAMECONFLICT="OVERWRITE"
 accept="application/pdf, application/x-zip-compressed">
 
@@ -19,7 +19,7 @@ accept="application/pdf, application/x-zip-compressed">
 <cffile
     action="rename"
     source="#FileName#"
-    destination="d:\webserver\corporate\home\departments\snk5212\iqa\ScopeLetters\#NewFileName#">
+    destination="#request.applicationFolder#\corporate\home\departments\snk5212\iqa\ScopeLetters\#NewFileName#">
 
 <CFQUERY BLOCKFACTOR="100" NAME="Report" Datasource="Corporate">
 UPDATE AuditSchedule

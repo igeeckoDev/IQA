@@ -37,7 +37,7 @@ ORDER BY ID
 <cfset filename="DAPReviewForm_#dateformat(now(), "yyyyMMMdd")#_#timeformat(now(), "hhmmsstt")#">
 
 <!--- Write to the file --->
-<cffile action="WRITE" file="d:\webserver\corporate\home\departments\snk5212\IQA\xls\DAPReviewForm\#filename#.cfm" output="
+<cffile action="WRITE" file="#request.applicationFolder#\corporate\home\departments\snk5212\IQA\xls\DAPReviewForm\#filename#.cfm" output="
 <cfcontent type='application/vnd.ms-excel'>
 <table border='1'>
 <tr align='center' style='font-family:Arial, Helvetica, sans-serif; font-size:12px'>
@@ -80,7 +80,7 @@ ORDER BY ID
 
 <!--- append the dynamic data to the file --->
 <cfoutput query="Output">
-<cffile action="APPEND" file="d:\webserver\corporate\home\departments\snk5212\IQA\xls\DAPReviewForm\#filename#.cfm" output="
+<cffile action="APPEND" file="#request.applicationFolder#\corporate\home\departments\snk5212\IQA\xls\DAPReviewForm\#filename#.cfm" output="
 <tr valign='top' align='left' style='font-family:Arial, Helvetica, sans-serif; font-size:12px'>
 <td>#ID#</td>
 	<td>#AuditorName#</td>
@@ -140,7 +140,7 @@ ORDER BY ID
 
 <!--- end your table in the file --->
 <cfoutput>
-<cffile action="Append" file="d:\webserver\corporate\home\departments\IQA\xls\DAPReviewForm\#filename#.cfm" output="
+<cffile action="Append" file="#request.applicationFolder#\corporate\home\departments\IQA\xls\DAPReviewForm\#filename#.cfm" output="
 </table> " addnewline="Yes">
 
 #filename#.xls has been generated<br>

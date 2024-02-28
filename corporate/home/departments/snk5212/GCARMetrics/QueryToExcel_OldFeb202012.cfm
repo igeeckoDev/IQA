@@ -238,7 +238,7 @@
 <cfset filename="GCAROutput_#dateformat(now(), "yyyyMMMdd")#_#timeformat(now(), "hhmmsstt")#">
 
 <!--- Write to the file --->
-<cffile action="WRITE" file="d:\webserver\corporate\home\departments\snk5212\GCARMetrics\xls\#filename#.cfm" output="
+<cffile action="WRITE" file="#request.applicationFolder#\corporate\home\departments\snk5212\GCARMetrics\xls\#filename#.cfm" output="
 <cfcontent type='application/vnd.ms-excel'>
 <table border='1'>
 <tr align='center' style='font-family:Arial, Helvetica, sans-serif; font-size:12px'> 
@@ -359,7 +359,7 @@
         <cfset formatCARAdmin = replace(CARAdministrator, '|CN=', ',CN=', 'All')>
         <cfset formatCARAdmin2 = replace(formatCARAdmin, 'CN=', '', 'All')>
     
-    <cffile action="APPEND" file="d:\webserver\corporate\home\departments\snk5212\GCARMetrics\xls\#filename#.cfm" output=" 
+    <cffile action="APPEND" file="#request.applicationFolder#\corporate\home\departments\snk5212\GCARMetrics\xls\#filename#.cfm" output=" 
     <tr valign='top' align='left' style='font-family:Arial, Helvetica, sans-serif; font-size:12px'>
     <td><a href='#Request.GCARLink##docID#'>View CAR</a></td>
     <td style='vnd.ms-excel.numberformat:00000000'>#CARNumber#</td>
@@ -411,7 +411,7 @@
 
 <!--- end your table in the file --->
 <cfoutput>
-<cffile action="Append" file="d:\webserver\corporate\home\departments\snk5212\GCARMetrics\xls\#filename#.cfm" output="
+<cffile action="Append" file="#request.applicationFolder#\corporate\home\departments\snk5212\GCARMetrics\xls\#filename#.cfm" output="
 </table> " addnewline="Yes">
 </cfoutput>
 
@@ -552,7 +552,7 @@ ORDER BY CARNumber
 <cfset filename="GCAROutput_#dateformat(now(), "yyyyMMMdd")#_#timeformat(now(), "hhmmsstt")#">
 
 <!--- Write to the file --->
-<cffile action="WRITE" file="d:\webserver\corporate\home\departments\snk5212\GCARMetrics\xls\#filename#.cfm" output="
+<cffile action="WRITE" file="#request.applicationFolder#\corporate\home\departments\snk5212\GCARMetrics\xls\#filename#.cfm" output="
 <cfcontent type='application/vnd.ms-excel'>
 <table border='1'>
 <tr align='center' style='font-family:Arial, Helvetica, sans-serif; font-size:12px'> 
@@ -608,7 +608,7 @@ ORDER BY CARNumber
 	<cfset formatCARAdmin = replace(CARAdministrator, '|CN=', ',CN=', 'All')>
 	<cfset formatCARAdmin2 = replace(formatCARAdmin, 'CN=', '', 'All')>
 
-<cffile action="APPEND" file="d:\webserver\corporate\home\departments\snk5212\GCARMetrics\xls\#filename#.cfm" output=" 
+<cffile action="APPEND" file="#request.applicationFolder#\corporate\home\departments\snk5212\GCARMetrics\xls\#filename#.cfm" output=" 
 <tr valign='top' align='left' style='font-family:Arial, Helvetica, sans-serif; font-size:12px'>
 <td><a href='#Request.GCARLink##docID#'>View CAR</a></td>
 <td style='vnd.ms-excel.numberformat:00000000'>#CARNumber#</td>
@@ -662,7 +662,7 @@ ORDER BY CARNumber
 
 <!--- end your table in the file --->
 <cfoutput>
-<cffile action="Append" file="d:\webserver\corporate\home\departments\snk5212\GCARMetrics\xls\#filename#.cfm" output="
+<cffile action="Append" file="#request.applicationFolder#\corporate\home\departments\snk5212\GCARMetrics\xls\#filename#.cfm" output="
 </table> " addnewline="Yes">
 
 #filename#.xls has been generated<br>

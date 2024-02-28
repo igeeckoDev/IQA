@@ -66,11 +66,11 @@
 	<cfset curdir = replace(GetDirectoryFromPath(cgi.script_name), "\", "", "All")>
 
     <!--- need to be removed --->
-	<cfset IQARootPath = "d:\webserver\corporate\home\depts\snk5212\IQA\">
+	<cfset IQARootPath = "#request.applicationFolder#\corporate\home\depts\snk5212\IQA\">
 	<cfset IQArootDir = "/departments/snk5212/IQA/">
 	<cfset IQAAdminDir = "#IQArootDir#admin/">
     <cfset IQAAccredLocationsDir = "#IQAAdminDir#AccredLocations/">
-   	<cfset CARRootPath = "d:\webserver\corporate\home\depts\snk5212\QE\">
+   	<cfset CARRootPath = "#request.applicationFolder#\corporate\home\depts\snk5212\QE\">
 	<cfset CARRootDir = "/departments/snk5212/QE/">
 	<cfset CARAdminDir = "#CARrootDir#admin/">
     <!--- /// --->

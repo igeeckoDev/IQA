@@ -12,7 +12,7 @@ WHERE ID = #URL.ID#
 
 <CFFILE ACTION="UPLOAD" 
 FILEFIELD="Cert" 
-DESTINATION="d:\webserver\corporate\home\departments\snk5212\iqa\Certs\" 
+DESTINATION="#request.applicationFolder#\corporate\home\departments\snk5212\iqa\Certs\" 
 NAMECONFLICT="OVERWRITE"
 accept="application/pdf">
 
@@ -23,6 +23,6 @@ accept="application/pdf">
 <cffile
     action="rename"
     source="#FileName#"
-    destination="d:\webserver\corporate\home\departments\snk5212\iqa\Certs\#NewFileName#">
+    destination="#request.applicationFolder#\corporate\home\departments\snk5212\iqa\Certs\#NewFileName#">
 
 <cflocation url="TPTDP_View.cfm?ID=#URL.ID#" addtoken="no">

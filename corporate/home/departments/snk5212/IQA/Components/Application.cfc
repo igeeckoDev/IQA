@@ -66,11 +66,11 @@
 	<cfset curdir = replace(GetDirectoryFromPath(cgi.script_name), "\", "", "All")>
 
     <!--- need to be removed --->
-	<cfset IQARootPath = "d:\webserver\corporate\home\depts\snk5212\IQA\">
+	<cfset IQARootPath = "#request.applicationFolder#\corporate\home\depts\snk5212\IQA\">
 	<cfset IQArootDir = "/departments/snk5212/IQA/">
 	<cfset IQAAdminDir = "#IQArootDir#admin/">
     <cfset IQAAccredLocationsDir = "#IQAAdminDir#AccredLocations/">
-   	<cfset CARRootPath = "d:\webserver\corporate\home\depts\snk5212\QE\">
+   	<cfset CARRootPath = "#request.applicationFolder#\corporate\home\depts\snk5212\QE\">
 	<cfset CARRootDir = "/departments/snk5212/QE/">
 	<cfset CARAdminDir = "#CARrootDir#admin/">
     <!--- /// --->
@@ -143,13 +143,13 @@
 
 	5. The facility's Environmental Health and Safety will be reviewed according to 00-SF-P0031 per approved audit plan, if applicable.">
 
-    <cfset Request.IQAScope2016 = "1. The scope of the assessment includes verifying implementation of UL Quality Management System (QMS) as described in the Global Quality Manual, 00-QA-P0001, if applicable, or local Quality Management System Manual. Additional functional, local, scheme/program or process policies/procedures will also be utilized as required. Assessment to standard requirements (ISO/IEC 17065, ISO/IEC 17025, ISO/IEC 17020, ISO/IEC 17021, ISO 9001, SCC Requirements and Guidance – Product, Process, and Service Certification Body Accreditation Program, SCC Requirements and Guidance - Inspection Body and Accreditation Program, or equivalent standard) will be utilized as applicable. Specifics on the scope of this assessment are described in Attachment A.<Br><br>
+    <cfset Request.IQAScope2016 = "1. The scope of the assessment includes verifying implementation of UL Quality Management System (QMS) as described in the Global Quality Manual, 00-QA-P0001, if applicable, or local Quality Management System Manual. Additional functional, local, scheme/program or process policies/procedures will also be utilized as required. Assessment to standard requirements (ISO/IEC 17065, ISO/IEC 17025, ISO/IEC 17020, ISO/IEC 17021, ISO 9001, SCC Requirements and Guidance ï¿½ Product, Process, and Service Certification Body Accreditation Program, SCC Requirements and Guidance - Inspection Body and Accreditation Program, or equivalent standard) will be utilized as applicable. Specifics on the scope of this assessment are described in Attachment A.<Br><br>
 
 	Note: Additional logistics may be addressed during pre-audit communications and/or during the Opening Sessions at each location.<Br><br>
 
 	2. Verify the effective implementation of previously closed CARs (internal and accreditor) as well as progress on open CARs where applicable.<Br><br>
 
-	3. Verify that documentation released/updated since the last audit was conducted, meets applicable Quality Management System/Scheme requirements and the applicable revisions of ISO/IEC 17065, ISO/IEC 17025, ISO/IEC17020, ISO/IEC 17021, ISO 9001, SCC Requirements and Guidance – Product, Process, and Service Certification Body Accreditation program, SCC Requirements and Guidance - Inspection Body and Accreditation Program, or equivalent standard.<Br><br>
+	3. Verify that documentation released/updated since the last audit was conducted, meets applicable Quality Management System/Scheme requirements and the applicable revisions of ISO/IEC 17065, ISO/IEC 17025, ISO/IEC17020, ISO/IEC 17021, ISO 9001, SCC Requirements and Guidance ï¿½ Product, Process, and Service Certification Body Accreditation program, SCC Requirements and Guidance - Inspection Body and Accreditation Program, or equivalent standard.<Br><br>
 
 	4. Ensure documentation and records meet Quality Management System/Scheme requirements.<Br><br>
 

@@ -203,8 +203,8 @@ WHERE
     
     <!--- rename the current file --->
     <CFFILE action="rename"
-        source="d:\webserver\corporate\home\departments\snk5212\IQA\TechAuditReports\#URL.Year#-#URL.ID#\#getFile.reportFileName#"
-        destination="d:\webserver\corporate\home\departments\snk5212\IQA\TechAuditReports\#URL.Year#-#URL.ID#\#ReplacedFileName#">
+        source="#request.applicationFolder#\corporate\home\departments\snk5212\IQA\TechAuditReports\#URL.Year#-#URL.ID#\#getFile.reportFileName#"
+        destination="#request.applicationFolder#\corporate\home\departments\snk5212\IQA\TechAuditReports\#URL.Year#-#URL.ID#\#ReplacedFileName#">
     
     <!--- rename file in db --->
     <CFQUERY BLOCKFACTOR="100" NAME="getFile" Datasource="UL06046" username="#OracleDB_Username#" password="#OracleDB_Password#">
@@ -222,7 +222,7 @@ WHERE
             NAMECONFLICT="OVERWRITE">
 
         <!---- set the path and set file name, using cffile.serverfileext from cffile above --->
-        <cfset destination="d:\webserver\corporate\home\departments\snk5212\IQA\TechAuditReports\#URL.Year#-#URL.ID#\#newFileName#">
+        <cfset destination="#request.applicationFolder#\corporate\home\departments\snk5212\IQA\TechAuditReports\#URL.Year#-#URL.ID#\#newFileName#">
         
         <!--- upload file to destination--->
         <cffile action="upload" filefield="file" destination="#destination#" nameconflict="Overwrite">

@@ -46,7 +46,7 @@
             NAMECONFLICT="OVERWRITE">
         
         <!---- set the path and set file name, using cffile.serverfileext from cffile above --->
-        <cfset destination="d:\webserver\corporate\home\departments\snk5212\IQA\TechAuditReports\#URL.Year#-#URL.ID#\#Identifier#.#cffile.ServerFileExt#">
+        <cfset destination="#request.applicationFolder#\corporate\home\departments\snk5212\IQA\TechAuditReports\#URL.Year#-#URL.ID#\#Identifier#.#cffile.ServerFileExt#">
         
         <cfset newFileName = "#Identifier#.#cffile.ServerFileExt#">
         

@@ -61,9 +61,9 @@
    <cfcookie name="CFTOKEN" value="#Variables.cftoken_local#">
 </cfif>--->
 
-<!--- thispath = d:\webserver\corporate\depts\snk5212\iqa corp\admin\*.* /// --->
-<!--- path = d:\webserver\corporate\depts\snk5212\iqa corp\admin\ /// --->
-<!--- basedir = d:\webserver\corporate\depts\snk5212\iqa corp\ /// --->
+<!--- thispath = #request.applicationFolder#\corporate\depts\snk5212\iqa corp\admin\*.* /// --->
+<!--- path = #request.applicationFolder#\corporate\depts\snk5212\iqa corp\admin\ /// --->
+<!--- basedir = #request.applicationFolder#\corporate\depts\snk5212\iqa corp\ /// --->
 <!--- curdir = /departments/snk5212/iqa corp/admin/ /// --->
 <!--  url = /departments/home/snk5212/iqa/admin/file.cfm?querystring /// --->
 <!--- schedurl =  /departments/home/snk5212/iqa/admin/schedule.cfm?querystring /// --->

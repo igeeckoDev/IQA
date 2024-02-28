@@ -23,7 +23,7 @@ WHERE
 <!--- create directory name based on audit number --->
 <cfset newDirectory = "#URL.Year#-#URL.ID#">
 <!--- set current directory --->
-<cfset currentDirectory = "d:\webserver\corporate\home\departments\snk5212\IQA\TechAuditReports\#newDirectory#">
+<cfset currentDirectory = "#request.applicationFolder#\corporate\home\departments\snk5212\IQA\TechAuditReports\#newDirectory#">
 
 <!--- check if the directory DOES NOT exist, if it DOES exist - DO NOTHING --->
 <cfif NOT DirectoryExists(currentDirectory)>
@@ -76,7 +76,7 @@ WHERE
     NAMECONFLICT="OVERWRITE">
 
 <!---- set the path and set file name, using cffile.serverfileext from cffile above --->
-<cfset destination="d:\webserver\corporate\home\departments\snk5212\IQA\TechAuditReports\#URL.Year#-#URL.ID#\#Identifier#.#cffile.ServerFileExt#">
+<cfset destination="#request.applicationFolder#\corporate\home\departments\snk5212\IQA\TechAuditReports\#URL.Year#-#URL.ID#\#Identifier#.#cffile.ServerFileExt#">
 
 <cfset newFileName = "#Identifier#.#cffile.ServerFileExt#">
 

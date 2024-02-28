@@ -1,4 +1,4 @@
 <cfdirectory    
 action = "create"
-directory = "d:\webserver\corporate\home\departments\snk5212\iqa\KB\">
+directory = "#request.applicationFolder#\corporate\home\departments\snk5212\iqa\KB\">
 

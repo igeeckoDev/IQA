@@ -4,13 +4,13 @@
 
 <cffile 
 	action="copy" 
-	source="d:\webserver\Corpdb\CAR\CAR.mdb"
-	destination="d:\webserver\corporate\home\departments\snk5212\QE\BackupDB\CAR.mdb" >
+	source="#request.applicationFolder#\Corpdb\CAR\CAR.mdb"
+	destination="#request.applicationFolder#\corporate\home\departments\snk5212\QE\BackupDB\CAR.mdb" >
 
 <cffile 
 	action="rename" 
-	source="d:\webserver\corporate\home\departments\snk5212\QE\BackupDB\CAR.mdb"
-	destination="d:\webserver\corporate\home\departments\snk5212\QE\BackupDB\CAR_#Month#_#Day#_#Year#_Manual.mdb">
+	source="#request.applicationFolder#\corporate\home\departments\snk5212\QE\BackupDB\CAR.mdb"
+	destination="#request.applicationFolder#\corporate\home\departments\snk5212\QE\BackupDB\CAR_#Month#_#Day#_#Year#_Manual.mdb">
 
 <cflog application="no" 
 
@@ -29,7 +29,7 @@
 <body>
 <cfoutput>
 <p>Database Backed up.<br>
-Back up file d:\webserver\corporate\home\departments\snk5212\QE\BackupDB\CAR_#Month#_#Day#_#Year#.mdb created.</p>
+Back up file #request.applicationFolder#\corporate\home\departments\snk5212\QE\BackupDB\CAR_#Month#_#Day#_#Year#.mdb created.</p>
 </cfoutput>
 <br><br>
 

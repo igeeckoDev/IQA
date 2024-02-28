@@ -21,7 +21,7 @@
 
 <cffunction name="onRequestStart" returnType="boolean" output="false">
 	<cfargument name="thePage" type="string" required="true">
-
+	<cfinclude template="../../environment.cfm">
 	<cfset Request.DSN = "IQA">
 	<cfset Request.CAR = "CAR">
 	<cfset Request.GCAR = "QE">
@@ -66,11 +66,11 @@
 	<cfset curdir = replace(GetDirectoryFromPath(cgi.script_name), "\", "", "All")>
 
     <!--- need to be removed --->
-	<cfset IQARootPath = "d:\webserver_uat.iqa.ul.com\corporate\home\departments\snk5212\IQA\">
+	<cfset IQARootPath = "#request.applicationFolder#\corporate\home\departments\snk5212\IQA\">
 	<cfset IQArootDir = "/departments/snk5212/IQA/">
 	<cfset IQAAdminDir = "#IQArootDir#admin/">
     <cfset IQAAccredLocationsDir = "#IQAAdminDir#AccredLocations/">
-   	<cfset CARRootPath = "d:\webserver_uat.iqa.ul.com\corporate\home\departments\snk5212\QE\">
+   	<cfset CARRootPath = "#request.applicationFolder#\corporate\home\departments\snk5212\QE\">
 	<cfset CARRootDir = "/departments/snk5212/QE/">
 	<cfset CARAdminDir = "#CARrootDir#admin/">
     <!--- /// --->

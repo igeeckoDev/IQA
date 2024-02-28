@@ -35,7 +35,7 @@ SELECT MAX(DocNumber)+1 as NewDocNumber FROM CARTraining
 
 <CFFILE ACTION="UPLOAD" 
 FILEFIELD="e_AttachA" 
-DESTINATION="d:\webserver\corporate\home\departments\snk5212\QE\CARTraining\" 
+DESTINATION="#request.applicationFolder#\corporate\home\departments\snk5212\QE\CARTraining\" 
 NAMECONFLICT="OVERWRITE">
 
 <cfset FileName="#Form.e_AttachA#">
@@ -45,7 +45,7 @@ NAMECONFLICT="OVERWRITE">
 <cffile
     action="rename"
     source="#FileName#"
-    destination="d:\webserver\corporate\home\departments\snk5212\QE\CARTraining\#NewFileName#">
+    destination="#request.applicationFolder#\corporate\home\departments\snk5212\QE\CARTraining\#NewFileName#">
 	
 <CFQUERY DataSource="Corporate" Name="FileSettingsAdd"> 
 INSERT INTO CARTraining(ID,DocNumber,Rev)

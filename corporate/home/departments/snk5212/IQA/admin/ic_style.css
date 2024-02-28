@@ -1,0 +1,211 @@
+/* <![CDATA[ */
+	body {
+		margin:0; padding:0;
+		font-size:10px;
+		font-family: verdana, arial, sans-serif;
+		}
+
+/* MAIN TEMPLATE SECTIONS */
+
+	#header {
+		margin: 0; padding: 0;
+		}
+		
+	#footer {
+		position: relative;
+		left: 157px;
+		margin-top: 8px;
+		/*padding-left: 157px; */
+		background: #CCCCCC top left repeat-y;
+		}
+
+	#main {
+		margin:0; padding:0;
+		}
+		
+	#left {
+		position: relative;
+		float:left;
+		width:157px;
+		margin:0; padding:0;
+		}
+		
+	#right {
+		position: relative;
+		float:left;
+		vertical-align: top;
+		width:197px;
+		margin:0; padding-top: 8px;
+		background: white;
+		}
+
+	#middle {
+		position: relative;
+		float: left;
+		width: 425px;
+		margin:0;
+		background: white;
+		}
+	
+	#quicklinks {
+		float: left;
+		width: 188px;
+		margin: 0 0 20px 0; padding: 0;
+		background: white url("../shared/images/bkd_quick_links.gif") top left; 
+		border-bottom: solid 1px #999999;
+		}
+
+
+
+/* POSITIONING OF ELEMENTS WITHIN MAIN TEMPLATE SECTIONS */
+	
+	.content-pad {						/* Main content should be wrapped in a content-pad div to ensure uniform spacing */
+		margin:0; padding:8px;
+		}
+		
+	.cleaner {
+		clear:both;
+		height:1px;
+		font-size:1px;
+		border:none;
+		margin:0; padding:0;
+		background:transparent;
+		}
+
+
+/* UNIQUE ELEMENTS */
+		
+	.navdate {                 /* Date in the navigation bar */
+		padding: 4px 0 0 10px;
+		font-size: 10px;
+		color: white;
+		}
+	
+	.qlSelect {  				/* Select dropdown menus */
+		margin:0 0 5px 8px;
+		width: 160px;
+		font-size: 9px;
+		}
+
+	.l-modhdr {
+		height: 23px;
+		width: 157px;
+		margin: 0; padding: 0;
+		background: #CC0000;
+		border-top: solid 1px #A7A7A7;
+		}
+		
+	.matrixhdr {
+		background: #CC0000;
+		color: white;
+		font-size: 11px;
+		font-weight: bold;
+		margin: 5px;
+		}
+
+	.matrixcell {
+		margin: 2px;
+		background: white;
+		}
+		
+	
+/* TEXT AND HTML TAG STYLES */
+		
+	h1 { 
+		margin: 5px 0 16px 0; 
+		font-size: 16px;
+		}
+		
+	h2 { 
+		margin: 5px 0 8px 0;
+		font-size: 11px;
+		font-weight: bold;
+		}
+			 
+	p {
+		margin: 5px 0 16px 0;
+		}
+	
+	a { 
+		text-decoration: underline;
+		color: #19198C 
+		}
+
+	td {
+		font-size: 10px;
+		}
+		
+	th {
+		font-size: 10px;
+		}
+
+	hr {
+		color: #D0CDBC;
+		background-color: #D0CDBC;
+		height: 1px;
+		width: 156px;
+		}
+
+	form {
+		margin: 0; padding 0;
+	}
+
+	.submitBtn {
+	    background: #A7A7A7;
+	}
+
+	a.arrow {
+		font-size: 9px;
+		font-weight: bold;
+		color: gray;
+		text-decoration: none;
+		}
+
+	a.arrow:hover {
+		color: #CC0000;
+		}
+	  		
+	a.arrowOn {
+		font-size: 9px;
+		font-weight: bold;
+		color: #CC0000;
+		text-decoration: none;
+		}
+
+	ul.arrow {
+		list-style-position: outside;
+		list-style-type: none;
+		padding-left: 16px;
+		margin: 0;
+		}
+
+	li.arrow {
+		list-style-image:
+		url("../shared/images/arrow_bullet.gif");
+		padding-bottom: 3px;
+		}
+
+	ol {
+	list-style-position: outside;
+	padding-left: 18px;
+	margin: 4px;
+	}
+	
+	li {
+	padding-left: 0;
+	padding-bottom: 3px;
+	margin: 0px;
+	}
+
+	.modttl {						/* Module Box title text */
+		font-size: 12px;
+		font-weight: bold;
+		color: white;
+		padding: 3px 0 0 8px;
+		}
+	
+	.red {
+		color: #CC0000;
+		}	
+	
+/* ]]> */

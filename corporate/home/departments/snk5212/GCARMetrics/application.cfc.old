@@ -1,0 +1,44 @@
+<cfcomponent>
+<cfscript>
+	this.name="GCARMetrics";
+	this.scriptprotect="All";
+	this.clientmanagement="Yes";
+	this.loginstorage="Session";
+	this.setDomainCookies="True";
+	this.setClientCookies="True";
+</cfscript>
+
+<cffunction name="onApplicationStart" returnType="boolean" output="false">
+	<cfreturn true>
+</cffunction>
+
+<cffunction name="onApplicationEnd" returnType="void" output="false">
+	<cfargument name="applicationScope" required="true">
+</cffunction>
+
+<cffunction name="onRequestStart" returnType="boolean" output="false">
+	<cfargument name="thePage" type="string" required="true"> 
+</cffunction>
+
+<cffunction name="onRequest" returnType="void">
+	<cfargument name="thePage" type="string" required="true">      
+</cffunction>
+
+<cffunction name="onRequestEnd" returnType="void" output="true">
+	<cfargument name="thePage" type="string" required="true">   
+</cffunction>
+
+<cffunction name="onError" returntype="void" ouput="true">
+	<cfargument name="exception" required="yes">
+    <cfargument name="eventName" type="string" required="yes">
+</cffunction>
+
+<cffunction name="onSessionStart" returnType="void" output="false">
+</cffunction>
+   
+<cffunction name="onSessionEnd" returnType="void" output="false">
+	<cfargument name="sessionScope" type="struct" required="true">
+	<cfargument name="applicationScope" type="struct" required="false">
+</cffunction>
+
+</cfcomponent>

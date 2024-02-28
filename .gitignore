@@ -1,0 +1,16 @@
+# Ignore PDF files
+*.pdf
+
+# Ignore photo files
+*.jpg
+*.jpeg
+*.png
+*.gif
+
+# Ignore Word documents
+*.doc
+*.docx
+
+# Ignore Excel spreadsheets
+*.xls
+*.xlsx

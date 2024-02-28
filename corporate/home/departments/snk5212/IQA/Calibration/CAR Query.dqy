@@ -1,0 +1,7 @@
+XLODBC
+1
+DRIVER=SQL Server;SERVER=usnbka106P;UID=06046;APP=Microsoft® Query;WSID=NBK0864595;DATABASE=DMBI;Trusted_Connection=Yes
+SELECT NOTES_GCAR.DocID, NOTES_GCAR.CARNumber, NOTES_GCAR.CARSource, NOTES_GCAR.CARStandardNumber, NOTES_GCAR.CARClause, NOTES_GCAR.CARRequirement, NOTES_GCAR.CARNonConformance, NOTES_GCAR.CARObjectiveEvidence, NOTES_GCAR.CARType, NOTES_GCAR.CARSubType, NOTES_GCAR.CARRootCause, NOTES_GCAR.CARCorrectiveActionPlan, NOTES_GCAR.CARPlannedImplementationDate, NOTES_GCAR.CARRootCauseCategory, NOTES_GCAR.CARState  FROM DMBI.dbo.NOTES_GCAR NOTES_GCAR  WHERE (NOTES_GCAR.CARSource='Corporate IQA')  ORDER BY NOTES_GCAR.CARNumber
+
+
+DocID	CARNumber	CARSource	CARStandardNumber	CARClause	CARRequirement	CARNonConformance	CARObjectiveEvidence	CARType	CARSubType	CARRootCause	CARCorrectiveActionPlan	CARPlannedImplementationDate	CARRootCauseCategory	CARState

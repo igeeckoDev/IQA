@@ -1,0 +1,69 @@
+<!---<CFAPPLICATION NAME="Login" SESSIONMANAGEMENT="YES" SESSIONTIMEOUT=#CreateTimespan(0,8,0,0)#>--->
+
+<CFAPPLICATION 
+	NAME="Login" 
+	SESSIONMANAGEMENT="YES" 
+	SESSIONTIMEOUT=#CreateTimespan(0,8,0,0)#>
+ 
+<!---
+<cferror 
+	type = "Exception"
+	template = "error_handler.cfm"
+	mailTo = "Christopher.J.Nicastro@us.ul.com" 
+    exception="Any">
+   
+<cferror 
+	type = "Request"
+	template = "error_handler.cfm"
+	mailTo = "Christopher.J.Nicastro@us.ul.com" 
+    exception="Any">
+--->
+	
+<cfset Request.DSN = "IQA">
+<cfset Request.CAR = "CAR">
+<cfset Request.GCAR = "QE">
+<cfset Request.Logs = "IQA_Log">
+
+<cfoutput>
+<cfset CurYear = #Dateformat(now(), 'yyyy')#>
+<cfset NextYear = #CurYear# + 1>
+<cfset LastYear = #CurYear# - 1>	
+
+<cfset CurMonth = #Dateformat(now(), 'mm')#>
+<cfset CurDate = #Dateformat(now(), 'mm/dd/yyyy')#>			
+<cfset CurTime = #Timeformat(now(), 'HH:mm:ss')#>
+<cfset CurTimeDate = '#CurDate# #CurTime#'>	
+</cfoutput>	
+
+<cfset thisPath = ExpandPath("*.*")>
+<cfset path = GetDirectoryFromPath(thisPath)>
+<cfset basedir = replace(path, "admin\", "", "All")>
+<cfset curdir = replace(GetDirectoryFromPath(cgi.script_name), "\", "", "All")>
+<cfset url = "#cgi.script_name#?#QUERY_STRING#">
+<cfset schedurl = "#curdir#schedule.cfm?#QUERY_STRING#">
+<cfset GCARLink = "notes:///86256F150051C1B0/3774B2FEF3E17F3086256F8C005C3F45/">
+
+<cfset header = "http://#CGI.Server_Name#/header/header.js">
+<cfset ULNetCSS = "http://#CGI.Server_Name#/header/ulnetheader.css">
+<cfset CSS = "http://#CGI.Server_Name##curdir#css.css">
+<cfset CSS2 = "http://#CGI.Server_Name##curdir#css2.css">
+
+<cfset DB.ChangeLog = "IQA_Log">
+<cfset SiteTitle = "UL Audit Database">
+<cfset adminmenu = "adminmenu.cfm">
+
+
+
+<!---<cfif IsDefined("Cookie.CFID") AND IsDefined("Cookie.CFTOKEN")>
+   <cfset Variables.cfid_local  = Cookie.CFID>
+   <cfset Variables.cftoken_local  = Cookie.CFTOKEN>
+   <cfcookie name="CFID" value="#Variables.cfid_local#">
+   <cfcookie name="CFTOKEN" value="#Variables.cftoken_local#">
+</cfif>--->
+
+<!--- thispath = d:\webserver\corporate\depts\snk5212\iqa corp\admin\*.* /// --->
+<!--- path = d:\webserver\corporate\depts\snk5212\iqa corp\admin\ /// --->
+<!--- basedir = d:\webserver\corporate\depts\snk5212\iqa corp\ /// --->
+<!--- curdir = /departments/snk5212/iqa corp/admin/ /// --->
+<!--  url = /departments/home/snk5212/iqa/admin/file.cfm?querystring /// --->
+<!--- schedurl =  /departments/home/snk5212/iqa/admin/schedule.cfm?querystring /// --->

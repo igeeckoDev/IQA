@@ -1,0 +1,4 @@
+<CFQUERY BLOCKFACTOR="100" NAME="DeleteRow" DataSource="Corporate">
+DELETE FROM CAR_FAQ_RH
+WHERE ID = 40
+</CFQUERY>

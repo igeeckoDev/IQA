@@ -1,0 +1,1 @@
+document.write('&copy; 2012 UL LLC.');

@@ -1,0 +1,1 @@
+<cflocation url="#CARRootDir#qfaq.cfm" addtoken="No">

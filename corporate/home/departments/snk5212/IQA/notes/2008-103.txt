@@ -1,0 +1,147 @@
+
+Melvin G. Fehrenbacher 
+Jr./RTP/ULI 
+03/17/2008 01:33 PM
+To
+Christopher J. Nicastro/NBK/ULI@ULI
+cc
+
+bcc
+
+
+
+Subject
+Fw: Audit # 2008-103
+
+
+ 
+
+Hi Chris,  I just spoke with Denise about audit # 2008-103.  She agreed with the below rationale 
+(which you probably don't need) and she said "have Chris make it gone".   Please delete audit 
+2008-103.    Feel free to call me if you have any questions.   Thanks!
+
+Mel  
+
+----- Forwarded by Melvin G. Fehrenbacher Jr./RTP/ULI on 03/17/2008 02:27 PM -----
+
+Melvin G. Fehrenbacher 
+Jr./RTP/ULI 
+03/17/2008 10:55 AM
+
+To
+Denise Echols/NBK/ULI
+cc
+Tovia Bat-Leah/NBK/ULI@ULI
+Subje
+ct
+Fw: Audit # 2008-103
+
+
+
+ 
+
+Hi Denise,  based on Joe's email below and my discussion with Tovia, I don't think we need audit # 
+2008-103.  Tovia agrees with the approach Joe recommends below.   I would audit the Security & 
+Signaling section (3017B) during my Melville 'Processes and Labs' audit and audit Peter Tallman 
+(he is the only 3017C staff member based in the Melville office) and provide my input to Tovia.    
+Please let us know your thoughts.     Thanks, 
+
+Mel  
+----- Forwarded by Melvin G. Fehrenbacher Jr./RTP/ULI on 03/17/2008 10:37 AM -----
+
+Joseph A. 
+Chiaramonte/MEL/ULI
+03/14/2008 04:47 PM
+
+To
+Melvin G. Fehrenbacher Jr./RTP/ULI@ULI
+cc
+Tovia Bat-Leah/NBK/ULI@ULI
+Subje
+ct
+Re: Audit # 2008-103(1)
+
+
+
+ 
+
+Hi Mel:
+
+Essentially, there are two separate Sections in MEL:
+1.) Karen Fine's S&S Section (3017BMEL) which handles UL (etc.) Mark Program Certification 
+Evaluations (Safety/Performance of Products); and
+2.) Peter Tallman's Alarm Certificate Services Section (3017CMEL) which performs Audits of 
+Installed Alarm Systems at the premises of Central Office providers and their 
+Consumer/Commercial customers.
+
+These were both covered by last year's audit noted below:
+
+2007-131-IQA - Melville, New York [Burglary Protection and Signaling]
+
+You'll see from the scope of the audit that Tovia addressed the Alarm Certificate Services work by 
+reference to document 80-CA-S0001; whereas the UL Mark Program (Karen's Section) was in 
+essence handled by our traditional "UL Safety " certification and other policies/procedure 
+documents.
+
+The audit report has interesting comments about both "programs":
+Positive Observations
+Major efforts are under way to harmonize the records and review process for the Alarm 
+certificate services group.
+The S&S systems listing group is closing a massive back log and are on schedule with 
+the UL-685 file review
+I would recommend the S&S Section (Karen Fine's safety certification work) be handled along with 
+the other "Processes and Lab" assessments; and a separate report should not be needed (even 
+though only one LabOps Tech is assigned to what otherwise is a fully CAS operated Section and 
+"Lab".  Karen reports to Nei Lakomiak (NBK) who reports to Jerry Stricker.
+If the Alarm Certificate Services - centrally controlled in NBK by Steven A. Schmit (Peter's Boss 
+who, in turn, also reports to JerryS) - are being audited by Tovia later this year, you may want to 
+touch base with Peter if only from the standpoint of "local control" for the regional audits (a kind of 
+Offsite Location in QRS parlance) so as to provide input to Tovia for her assessment.  A separate 
+report would not be appropriate until the full assessment is conducted.
+
+I hope I haven't confused matters.
+
+Best Regards,
+
+Joe Chiaramonte (x22846) PE, CQA
+Quality Manager, Melville Site
+UL Melville 1-631-546-2846
+
+
+
+Melvin G. Fehrenbacher 
+Jr./RTP/ULI 
+03/14/2008 03:14 PM
+
+To
+Joseph A. Chiaramonte/MEL/ULI@ULI
+cc
+Tovia Bat-Leah/NBK/ULI@ULI
+Subje
+ct
+Audit # 2008-103
+
+
+
+ 
+
+Hi Joe,
+
+Do you recall a specific need for a separate audit report for BP&S in past years?
+
+Audit 2008-103 for Alarm Systems Certificate Services (formerly BP&S) was generated 
+automatically (by Chris Nicastro) from last year's audit.  You mentioned there is just one lab tech 
+and the oversight for the program is in NBK.  Tovia is auditing them later this year.
+
+If there is no specific need for a separate report, could we include it in the Processes and Lab audit?  
+Please let me know any input you may have and then I'll contact Denise if you think we can cover 
+this under the Processes and Lab audit.
+
+Thanks!
+
+Mel Fehrenbacher, P.E.
+Underwriters Laboratories, Inc.
+Corporate Quality Assurance
+919-549-1690  
+919-638-1698    cell phone
+Melvin.G.FehrenbacherJr@ul.com

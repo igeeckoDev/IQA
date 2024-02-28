@@ -1,0 +1,61 @@
+
+
+table {
+margin: 20px; }
+
+tr {
+background-color: #d8d8d8; }
+
+tr#alt {
+background-color: #cccccc; }
+
+tr#white {
+background-color: #ffffff; }
+
+td {
+font-family: Verdana, Helvetica, Arial, sans-serif;
+font-size: 10px; 
+border-bottom: 2px #ffffff solid;
+border-right: 1px #990000 solid; }
+
+#rightcol {
+border-right: none; }
+
+#espacefooter {
+font-family: Verdana, Helvetica, Arial, sans-serif;
+font-size: 10px; 
+border-bottom: none;
+border-right: none;
+background-color: #ffffff; }
+
+th {
+font-family: Helvetica, Arial, sans-serif;
+font-size: 11px;
+font-weight: bold;
+color: #ffffff;
+background-color: #990000;
+border-right: 1px #ffffff solid;
+border-bottom: 3px #ffffff solid; }
+
+th#country {
+font-family: Helvetica, Arial, sans-serif;
+font-size: 11px;
+font-weight: bold;
+color: #ffffff;
+background-color: #990000;
+border-right: 1px #ffffff solid;
+border-bottom: none; }
+
+td#datetime {
+font-family: Helvetica, Arial, sans-serif;
+font-size: 11px;
+font-weight: bold;
+color: #ffffff;
+background-color: #990000;
+border-right: 1px #ffffff solid;
+border-bottom: 3px #ffffff solid;
+border-top: 1px #ff6666 dashed; }
+
+DIV#righttable {
+	float : right;
+}

@@ -1,0 +1,54 @@
+<!---
+<CFAPPLICATION 
+	NAME="QE" 
+	setclientcookies="Yes"
+	SESSIONMANAGEMENT="YES" 
+	SESSIONTIMEOUT=#CreateTimespan(0,8,0,0)#>
+    
+<cferror type = "Exception"
+   template = "../error_handler.cfm"
+   mailTo = "Christopher.J.Nicastro@us.ul.com">
+   
+<cferror type = "Request"
+   template = "../error_handler.cfm"
+   mailTo = "Christopher.J.Nicastro@us.ul.com">    
+
+<cfoutput>
+<cfset CurYear = #Dateformat(now(), 'yyyy')#>
+<cfset NextYear = #CurYear# + 1>
+<cfset LastYear = #CurYear# - 1>
+
+<cfset CurMonth = #Dateformat(now(), 'mm')#>
+<cfset CurDate = #Dateformat(now(), 'mm/dd/yyyy')#>			
+<cfset CurTime = #Timeformat(now(), 'HH:mm:ss')#>
+<cfset CurTimeDate = '#CurDate# #CurTime#'>	
+</cfoutput>	
+
+<cfset thisPath = ExpandPath("*.*")>
+<cfset path = GetDirectoryFromPath(thisPath)>
+<cfset basedir = replace(GetDirectoryFromPath(cgi.script_name), "\", "", "All")>
+<cfset curdir = replace(GetDirectoryFromPath(cgi.script_name), "\", "", "All")>
+<cfset fullbasedir = "../../">
+<cfset fullBaseIQADir = "../../../IQA/">
+<cfset GCARLink = "notes:///86256F150051C1B0/3774B2FEF3E17F3086256F8C005C3F45/">
+
+<cfset Request.DSN = "CAR">
+<cfset Request.IQA = "IQA">
+<cfset Request.GCAR = "QE">
+<cfset Request.Logs = "IQA_Log">
+
+<cfset SiteTitle = "CAR Process Calibration Meetings">
+
+<cfset header = "http://#CGI.Server_Name#/header/header.js">
+<cfset CSS = "http://#CGI.Server_Name##CARRootDir#css.css">
+
+<cfif CGI.Server_Name is "usnbkiqas100p">
+	<cfset ULNetCSS = "http://#CGI.Server_Name#/header/ulnetheader.css">
+<cfelse>
+	<cfset ULNetCSS = "http://#CGI.Server_Name#/header/ulnetheader.css">
+</cfif>
+
+<cfif NOT IsDefined("SESSION.Auth.IsLoggedIn")>
+	<cflocation url="../global_login.cfm">
+</cfif>
+--->

@@ -1,0 +1,17 @@
+<cfset varSearch = ArrayNew(2)>
+<cfset varSearch[1][1] = "Audited Region">
+<cfset varSearch[1][2] = "CARAuditedRegion">
+<cfset varSearch[2][1] = "Site Audited">
+<cfset varSearch[2][2] = "CARSiteAudited">
+<cfset varSearch[3][1] = "Process Impacted">
+<cfset varSearch[3][2] = "CARTypeNew">
+<cfset varSearch[4][1] = "Owner's Org / Function">
+<cfset varSearch[4][2] = "CARSubType">
+<cfset varSearch[5][1] = "Root Cause Category">
+<cfset varSearch[5][2] = "CARRootCauseCategory">
+<cfset varSearch[6][1] = "Standard Category">
+<cfset varSearch[6][2] = "CARType">
+<cfset varSearch[7][1] = "CAR Source">
+<cfset varSearch[7][2] = "CARSource">
+<cfset varSearch[8][1] = "CAR State">
+<cfset varSearch[8][2] = "CARState">

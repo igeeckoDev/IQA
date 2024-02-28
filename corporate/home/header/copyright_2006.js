@@ -1,0 +1,1 @@
+document.write('Copyright 2006 Underwriters Laboratories Inc.  ');

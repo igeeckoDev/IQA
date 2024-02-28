@@ -1,0 +1,10 @@
+<CFQUERY BLOCKFACTOR="100" Datasource="Corporate" NAME="Add"> 
+UPDATE IQADB_FAQ 
+SET 
+Q='#Form.Q#',
+A=<CFQUERYPARAM VALUE="#FORM.A#" CFSQLTYPE="CF_SQL_CLOB">
+
+WHERE ID=#URL.ID#
+</CFQUERY>
+
+<cflocation url="FAQ.cfm" ADDTOKEN="No">

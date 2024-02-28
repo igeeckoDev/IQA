@@ -1,0 +1,51 @@
+<CFQUERY Name="Accred" Datasource="Corporate">
+SELECT * From ASAccreditors
+WHERE Status IS NULL
+Order BY Accreditor
+</CFQUERY>
+
+<!--- Header, Menu, Title, CSS, Table, Start of Page HTML --->
+<cfset subTitle="Manage Accreditors - Accreditation Services (AS)">
+<cfinclude template="#SiteDir#SiteShared/StartOfPage.cfm">
+<!--- / --->
+
+<cfparam name="query_string" type="string" default="">
+<cfif len(query_string)>
+    <CFQUERY Name="Dup" Datasource="Corporate">
+    SELECT * From ASAccreditors
+    WHERE ID = #URL.ID#
+    </CFQUERY>
+	<cfif url.msg is "duplicate">
+		<cfoutput query="Dup">
+		Attempted to add: <b>#Accreditor#</b><br>
+		<font color="red"><b>#Accreditor#</b> is already listed below.</font><br><br>
+		</cfoutput>
+	<cfelseif url.msg is "remove">
+		<cfoutput query="Dup">
+		<font color="red">#Accreditor# had been removed.</font><br><br>
+		</cfoutput>
+    <cfelseif url.msg is "edit">
+   		<cfoutput query="Dup">
+		<font color="red">#Accreditor# had been edited.</font><br><br>
+		</cfoutput>
+	</cfif>
+</cfif>
+
+<FORM METHOD="POST" ENCTYPE="multipart/form-data" name="Accred" action="ASAccred_update.cfm">
+
+Add Accreditor:<br>
+<input name="Accreditor" type="Text" size="70" value="">
+<br><br>
+
+<input name="submit" type="submit" value="Submit"> 
+</form>
+
+<br><b>AS Accreditors</b>
+<br><br>
+<CFOUTPUT query="Accred">
+- #Accreditor# <a href="asaccred_edit.cfm?ID=#ID#">(edit)</a><br>
+</CFOUTPUT>
+
+<!--- Footer, End of Page HTML --->
+<cfinclude template="#SiteDir#SiteShared/EndOfPage.cfm">
+<!--- / --->

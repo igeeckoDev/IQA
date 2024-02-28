@@ -1,0 +1,52 @@
+<CFAPPLICATION NAME="Login" SESSIONMANAGEMENT="YES" SESSIONTIMEOUT=#CreateTimespan(0,8,0,0)#>
+<cfinclude template="\global.cfm">
+<cfoutput>
+<cfset CurYear = #Dateformat(now(), 'yyyy')#>
+<cfset NextYear = #CurYear# + 1>
+<cfset LastYear = #CurYear# - 1>
+<cfset CurMonth = #Dateformat(now(), 'mm')#>
+<cfset CurDate = #Dateformat(now(), 'mm/dd/yyyy')#>
+<cfset CurTime = #Timeformat(now(), 'HH:mm:ss')#>
+<cfset CurTimeDate = '#CurDate# #CurTime#'>
+</cfoutput>
+
+<cfset thisPath = ExpandPath("*.*")>
+<cfset path = GetDirectoryFromPath(thisPath)>
+<cfset basedir = replace(GetDirectoryFromPath(cgi.script_name), "\", "", "All")>
+<cfset url = "#cgi.script_name#?#QUERY_STRING#">
+<cfset schedurl = "#basedir#schedule.cfm?#QUERY_STRING#">
+<cfset calurl = "#basedir#calendar.cfm?#QUERY_STRING#">
+<cfset curdir = replace(GetDirectoryFromPath(cgi.script_name), "\", "", "All")>
+
+<cfset REQUEST.DSN = "IQA">
+
+<cfset SiteTitle = "UL Audit Database">
+<cfset menu = "menu.cfm">
+
+<cfset header = "http://#CGI.Server_Name#/header/header.js">
+<cfset CSS = "http://#CGI.Server_Name##basedir#css.css">
+
+<cfif CGI.Server_Name is "usnbkiqas100p">
+	<cfset ULNetCSS = "http://#CGI.Server_Name#/header/ulnetheader.css">
+<cfelse>
+	<cfset ULNetCSS = "http://#CGI.Server_Name#/header/ulnetheader.css">
+</cfif>
+
+<cfif IsDefined("Cookie.CFID") AND IsDefined("Cookie.CFTOKEN")>
+    <cfset Variables.cfid_local = Cookie.CFID>
+    <cfset Variables.cftoken_local = Cookie.CFTOKEN>
+    <cfcookie name="CFID" value="#Variables.cfid_local#">
+    <cfcookie name="CFTOKEN" value="#Variables.cftoken_local#">
+</cfif>
+
+<!---
+<cfif cgi.server_name is "usnbkiqas100p">
+	<cfif curdir is "/departments/snk5212/iqadev/webhelp/">
+		<cfset DB.Name = "IQA_Dev">
+	<cfelseif curdir is "/departments/snk5212/iqa/webhelp/">
+		<cfset DB.Name = "IQA">
+	</cfif>
+<cfelseif cgi.server_name is "devweb1.ul.com:8080">
+	<cfset DB.Name = "IQA">
+</cfif>
+--->

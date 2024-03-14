@@ -65,7 +65,7 @@ Change History/Notes:<br>
 #CARSource.Description#<br /><br />
 
 View CAR Source Table<Br>
-http://usnbkiqas100p/departments/snk5212/QE/FAQ.cfm###csID#
+#request.serverProtocol##request.serverDomain#/departments/snk5212/QE/FAQ.cfm###csID#
 	</cfmail>
     
     <cflocation url="CARSource_Add.cfm" addtoken="no">

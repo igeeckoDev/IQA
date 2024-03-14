@@ -2,10 +2,10 @@
 <cfset subTitle = "DAP Review Form - Lead Auditor - #URL.LeadAuditor#">
 <cfinclude template="#SiteDir#SiteShared/StartOfPage.cfm">
 <!--- / --->
-
+<cfoutput>
 <b>Open blank DAP Review Form</b><br>
-<a href="http://usnbkiqas100p/departments/snk5212/IQA/getEmpNo.cfm?page=DAPReviewForm">http://usnbkiqas100p/departments/snk5212/IQA/getEmpNo.cfm?page=DAPReviewForm</a><br><br>
-
+<a href="#request.serverProtocol##request.serverDomain#/departments/snk5212/IQA/getEmpNo.cfm?page=DAPReviewForm">#request.serverProtocol##request.serverDomain#/departments/snk5212/IQA/getEmpNo.cfm?page=DAPReviewForm</a><br><br>
+</cfoutput>
 <b>Export Data</b><br>
 <a href="DAPReviewForm_Export2.cfm">Export to Excel</a><br><br>
 

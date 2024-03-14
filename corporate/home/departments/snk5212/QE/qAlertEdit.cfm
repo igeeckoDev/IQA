@@ -145,7 +145,7 @@ ORDER BY Email
         type="HTML">
 A Quality Alert has been published on the CAR Process Website.  A potential systemic or recurring issue has been identified. Please review your respective areas for this issue and make corrections as necessary. If you have any questions, please contact Denise Echols.<br /><br />
 
-<a href="http://usnbkiqas100p/departments/snk5212/qe/AlertView.cfm?Year=#Year_#&ID=#ID#">View</a> Quality Alert #Year_#-#ID#.
+<a href="#request.serverProtocol##request.serverDomain#/departments/snk5212/qe/AlertView.cfm?Year=#Year_#&ID=#ID#">View</a> Quality Alert #Year_#-#ID#.
 	</cfmail>
 <cfelseif Alerts.Status is "Rejected">
 	<cfmail
@@ -161,7 +161,7 @@ A Quality Alert has been published on the CAR Process Website.  A potential syst
 
 			For Questions or Comments, please contact Denise Echols.<br><br>
 
-			<a href="http://usnbkiqas100p/departments/snk5212/qe/AlertView.cfm?Year=#Year_#&ID=#ID#">View</a> Alert<br><br>
+			<a href="#request.serverProtocol##request.serverDomain#/departments/snk5212/qe/AlertView.cfm?Year=#Year_#&ID=#ID#">View</a> Alert<br><br>
 	</cfmail>
 </cfif>
 

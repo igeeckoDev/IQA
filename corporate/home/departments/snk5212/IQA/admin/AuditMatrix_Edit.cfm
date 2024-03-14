@@ -206,7 +206,7 @@
 
         If you believe there is an error in the changes, please contact #LeadAuditor# (Lead Auditor) or Kai Huang.<Br /><br />
 
-        <a href="http://usnbkiqas100p/departments/snk5212/IQA/AuditDetails.cfm?ID=#ID#&Year=#Year_#">Audit Details</a>
+        <a href="#request.serverProtocol##request.serverDomain#/departments/snk5212/IQA/AuditDetails.cfm?ID=#ID#&Year=#Year_#">Audit Details</a>
         </cfmail>
     </cfif>
 </cfif>

@@ -16,7 +16,7 @@
         <cfmail to="#Email#" from="Internal.Quality_Audits@ul.com" subject="Password Reset - IQA Web Site" query="User" type="html">
         The password for username <b>#Username#</b> has been reset. Your temporary password is <b>temppwd</b>.<br /><br />
         
-        The next time you log in to the <a href="http://usnbkiqas100p/departments/snk5212/IQA/">IQA web site</a>, you will be asked to set a new password.<br /><br />
+        The next time you log in to the <a href="#request.serverProtocol##request.serverDomain#/departments/snk5212/IQA/">IQA web site</a>, you will be asked to set a new password.<br /><br />
         </cfmail>
     </cfif>
     

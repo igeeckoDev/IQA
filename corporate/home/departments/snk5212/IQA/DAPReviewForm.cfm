@@ -1,4 +1,4 @@
-<!--- http://usnbkiqas100p/departments/snk5212/IQA/getEmpNo.cfm?page=DAPReviewForm --->
+<!--- #request.serverProtocol##request.serverDomain#/departments/snk5212/IQA/getEmpNo.cfm?page=DAPReviewForm --->
 
 <!--- Header, Menu, Title, CSS, Table, Start of Page HTML --->
 <cfset subTitle = "DAP Review Form">

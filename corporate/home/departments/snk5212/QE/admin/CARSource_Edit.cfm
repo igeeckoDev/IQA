@@ -110,7 +110,7 @@ CAR Source Information for <b>#CARSource#</b> has been edited in FAQ 12/CAR Sour
 #Dump3#<br /><br />
 
 View CAR Source Table<Br>
-http://usnbkiqas100p/departments/snk5212/QE/FAQ.cfm###csID#
+#request.serverProtocol##request.serverDomain#/departments/snk5212/QE/FAQ.cfm###csID#
 	</cfmail>
 <!--- /// --->
 </cfif>

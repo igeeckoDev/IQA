@@ -35,19 +35,19 @@
    <script src="Scripts/AC_ActiveX.js" type="text/javascript"></script>
    <script src="Scripts/AC_RunActiveContent.js" type="text/javascript"></script>
 </head>
-
+<cfoutput>
 <body>
 <script type="text/javascript">
-AC_AX_RunContent( 'id','GetUserID1','width','320','height','169','classid','CLSID:2E5FD423-86E4-404B-AB80-76659DD1AF4D','codebase','http://usnbkiqas100p/departments/snk5212/SiteShared/GetWinID.CAB#version=2,2,0,0','_extentx','8467','_extenty','4471' ); //end AC code
+AC_AX_RunContent( 'id','GetUserID1','width','320','height','169','classid','CLSID:2E5FD423-86E4-404B-AB80-76659DD1AF4D','codebase','#request.serverProtocol##request.serverDomain#/departments/snk5212/SiteShared/GetWinID.CAB##version=2,2,0,0','_extentx','8467','_extenty','4471' ); //end AC code
 </script><noscript><object id="GetUserID1" width=320 height=169
  classid="CLSID:2E5FD423-86E4-404B-AB80-76659DD1AF4D"
- codebase="http://usnbkiqas100p/departments/snk5212/SiteShared/GetWinID.CAB#version=2,2,0,0">
+ codebase="#request.serverProtocol##request.serverDomain#/departments/snk5212/SiteShared/GetWinID.CAB##version=2,2,0,0">
     <param name="_ExtentX" value="8467">
     <param name="_ExtentY" value="4471">
 </object></noscript>
 
 <cfform name="TempForm" action="#IQARootDir##URL.Page#.cfm#urlid#" method="post">
-<cfoutput>
+
 <script language="vbscript">
 	dim y
 	Set y = New GetLoginID

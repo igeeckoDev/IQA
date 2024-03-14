@@ -5,7 +5,7 @@
 <!--- / --->
 
 <cfoutput>
-<a href="http://usnbkiqas100p/departments/snk5212/IQA/Metrics_New_Offices.cfm?Year=2017&AuditedBy=IQA">View</a> List of Sites Audited for #URL.Year#<br><br>
+<a href="#request.serverProtocol##request.serverDomain#/departments/snk5212/IQA/Metrics_New_Offices.cfm?Year=2017&AuditedBy=IQA">View</a> List of Sites Audited for #URL.Year#<br><br>
 </cfoutput>
 
 <table border=1 width=750 style="border-collapse: collapse;">

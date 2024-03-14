@@ -34,7 +34,7 @@ password - #password#
 Please save this email for future reference.
 
 You can view the IQA Site here:
-http://usnbkiqas100p/departments/snk5212/IQA/
+#request.serverProtocol##request.serverDomain#/departments/snk5212/IQA/
 </cfmail>
 
 <CFOUTPUT query="finduser">

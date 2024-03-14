@@ -275,7 +275,7 @@
                 <u>Audit Area</u>: #Trim(Area)#<br>
                 <u>Location</u>: #Trim(Officename)#<br>
                 <u>Lead Auditor</u>: #LeadAuditor#<br>
-                <u>Audit Details</u>: http://usnbkiqas100p/departments/snk5212/IQA/auditdetails.cfm?ID=#ID#&Year=#Year#<br><br>
+                <u>Audit Details</u>: #request.serverProtocol##request.serverDomain#/departments/snk5212/IQA/auditdetails.cfm?ID=#ID#&Year=#Year#<br><br>
 
                 <cfset N = #ReplaceNoCase(Form.RescheduleNotes,chr(13),"<br>", "ALL")#>
 
@@ -296,7 +296,7 @@
                 <u>Audit Area</u>: #Trim(Area)#<br>
                 <u>Location</u>: #Trim(Officename)#<br>
                 <u>Lead Auditor</u>: #LeadAuditor#<br>
-                <u>Audit Details</u>: http://usnbkiqas100p/departments/snk5212/IQA/auditdetails.cfm?ID=#ID#&Year=#Year#<br><br>
+                <u>Audit Details</u>: #request.serverProtocol##request.serverDomain#/departments/snk5212/IQA/auditdetails.cfm?ID=#ID#&Year=#Year#<br><br>
 
                 <cfset N = #ReplaceNoCase(Form.RescheduleNotes,chr(13),"<br>", "ALL")#>
 

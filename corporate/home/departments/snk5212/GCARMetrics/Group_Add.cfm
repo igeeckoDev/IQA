@@ -1,4 +1,4 @@
-<cfif cgi.HTTP_REFERER eq "http://usnbkiqas100p/departments/snk5212/GCARMetrics/getEmpNo.cfm?page=Group_Add">
+<cfif cgi.HTTP_REFERER eq "#request.serverProtocol##request.serverDomain#/departments/snk5212/GCARMetrics/getEmpNo.cfm?page=Group_Add">
 	<cfif isDefined("Form.EmpNo")>
 		<cfset url.ReportType = "#form.EmpNo#">
 	</cfif>

@@ -27,7 +27,7 @@ password - #password#<br /><br />
 Please save this email for future reference.<br /><br />
 
 You can view the UL Audit Database here:<br />
-<a href="http://usnbkiqas100p/departments/snk5212/IQA/">http://usnbkiqas100p/departments/snk5212/IQA/</a>
+<a href="#request.serverProtocol##request.serverDomain#/departments/snk5212/IQA/">#request.serverProtocol##request.serverDomain#/departments/snk5212/IQA/</a>
 </cfmail>
 
 <cflock scope="SESSION" timeout="60">

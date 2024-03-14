@@ -132,7 +132,7 @@ AND YEAR_ = <cfqueryparam value="#URL.Year#" cfsqltype="cf_sql_integer">
         </cfif>
 
         <u>Audit Details</u>:<Br />
-        http://usnbkiqas100p/departments/snk5212/IQA/auditdetails.cfm?ID=#ID#&Year=#Year#<br><br>
+        #request.serverProtocol##request.serverDomain#/departments/snk5212/IQA/auditdetails.cfm?ID=#ID#&Year=#Year#<br><br>
 
         The Scope Letter for this audit has been submitted to the Audit Database. You can view the scope by following the link above to the Audit Details page on the IQA website.<Br /><br />
 

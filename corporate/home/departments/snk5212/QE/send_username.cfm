@@ -30,7 +30,7 @@ password - #password#
 Please save this email for future reference.
 
 You can view the CAR Process Website here:
-http://usnbkiqas100p/departments/snk5212/QE/
+#request.serverProtocol##request.serverDomain#/departments/snk5212/QE/
 </cfmail>
 
 <CFOUTPUT query="finduser">

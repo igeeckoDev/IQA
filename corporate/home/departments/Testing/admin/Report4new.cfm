@@ -152,7 +152,7 @@ Audit Coverage Help - <A HREF="javascript:popUp('../webhelp/webhelp_plancoverage
 <FORM METHOD="POST" ENCTYPE="multipart/form-data" name="Audit" ACTION="Report4_submitNew.cfm?ID=#URL.ID#&Year=#URL.Year#&AuditedBy=#URL.AuditedBy#">
 </cfif>
 
-<a href="http://usnbkiqas100p/departments/snk5212/IQA/KB.cfm?ID=57" target="_blank">View</a> Matrix of Standard Categories for Non-Conformances and Audit Coverage since Janaury 1, 2019 <Br><br>
+<a href="#request.serverProtocol##request.serverDomain#/departments/snk5212/IQA/KB.cfm?ID=57" target="_blank">View</a> Matrix of Standard Categories for Non-Conformances and Audit Coverage since Janaury 1, 2019 <Br><br>
 
 <table width="750">
 <tr>

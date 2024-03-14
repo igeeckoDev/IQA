@@ -29,7 +29,7 @@ Preparation for 2011 Corporate Internal Quality Audits is in its initial stages.
 At this time, I am requesting your input for <b>#Program#</b> for the 2011 audit year. This information will be included in our audit plans.<br><br>
 
 Please follow the link below to provide information for <b>#Program#</b>:<br>
-<a href="http://usnbkiqas100p/departments/snk5212/IQA/Planning/AuditPlanning_getEmpNo.cfm?Type=Program&ID=#ProgID#">http://usnbkiqas100p/departments/snk5212/IQA/Planning/AuditPlanning_getEmpNo.cfm?Type=Program&ID=#ProgID#</a><br><br>
+<a href="#request.serverProtocol##request.serverDomain#/departments/snk5212/IQA/Planning/AuditPlanning_getEmpNo.cfm?Type=Program&ID=#ProgID#">#request.serverProtocol##request.serverDomain#/departments/snk5212/IQA/Planning/AuditPlanning_getEmpNo.cfm?Type=Program&ID=#ProgID#</a><br><br>
 
 If someone will be providing this information on your behalf, forward this email to them including the link above.<br><br>
 

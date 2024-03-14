@@ -32,14 +32,14 @@ Preparation for 2017 Corporate Internal Quality Audits is in its initial stages.
 At this time, I am requesting your input for <b>#Name#</b> (Legal Entity/Certification Body) for the 2017 audit year. This information will be included in our audit plans.<br><br>
 
 Please follow the link below to provide information for <b>#Name#</b>:<br>
-<a href="http://usnbkiqas100p/departments/snk5212/IQA/Planning/getEmpNo.cfm?UserID=#ID#">http://usnbkiqas100p/departments/snk5212/IQA/Planning/getEmpNo.cfm?UserID=#ID#</a><br><br>
+<a href="#request.serverProtocol##request.serverDomain#/departments/snk5212/IQA/Planning/getEmpNo.cfm?UserID=#ID#">#request.serverProtocol##request.serverDomain#/departments/snk5212/IQA/Planning/getEmpNo.cfm?UserID=#ID#</a><br><br>
 
 If you have additional audit requests specific to Certification Bodies, Certification Schemes, accredited testing laboratories, or calibration laboratories, please include this information in the survey responses.<br><br>
 
 If someone will be providing this information on your behalf, please forward this email to them including the link above.<br><br>
 
 To view the distribution lists, please use the following link:<br />
-<a href="http://usnbkiqas100p/departments/snk5212/IQA/Planning/Distribution_2017.cfm?Type=CB">http://usnbkiqas100p/departments/snk5212/IQA/Planning/Distribution_2017.cfm?Type=CB</a><br /><br />
+<a href="#request.serverProtocol##request.serverDomain#/departments/snk5212/IQA/Planning/Distribution_2017.cfm?Type=CB">#request.serverProtocol##request.serverDomain#/departments/snk5212/IQA/Planning/Distribution_2017.cfm?Type=CB</a><br /><br />
 
 You can add information for any of the categories listed in the link above by using the "Open Blank Survey" links.<br><br>
 

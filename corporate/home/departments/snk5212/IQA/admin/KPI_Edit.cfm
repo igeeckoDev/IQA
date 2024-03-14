@@ -33,20 +33,20 @@ Period Ending: #Dateformat(PeriodEnding, "mm/dd/yyyy")#<br><br>
 <b>IQA Customer Satisfaction Survey</b><br>
 <cfinput type="text" name="IQASurvey" value="#IQASurvey#" size="10" data-bvalidator="required" data-bvalidator-msg="IQA Survey"><br>
 
-Data from: <a href="http://usnbkiqas100p/departments/snk5212/IQA/AuditSurvey_Metrics.cfm?Year=#curYear#" target="_blank">http://usnbkiqas100p/departments/snk5212/IQA/AuditSurvey_Metrics.cfm?Year=#curYear#</a><br><br>
+Data from: <a href="#request.serverProtocol##request.serverDomain#/departments/snk5212/IQA/AuditSurvey_Metrics.cfm?Year=#curYear#" target="_blank">#request.serverProtocol##request.serverDomain#/departments/snk5212/IQA/AuditSurvey_Metrics.cfm?Year=#curYear#</a><br><br>
 
 <b>Average Number of audits per Scheme</b><br>
 <cfinput type="text" name="AvgAuditsPerScheme" size="10" data-bvalidator="required" data-bvalidator-msg="Average Number of Audits per Scheme" value="#AvgAuditsPerScheme#"><br>
 
 Data can be obtained from this page (on the bottom of the page, see heading "Average Audits per Scheme"<Br>
-<a href="http://usnbkiqas100p/departments/snk5212/IQA/Prog_Plan_KPI.cfm?View=All&Year=#curYear#" target="_blank">http://usnbkiqas100p/departments/snk5212/IQA/Prog_Plan_KPI.cfm?View=All&Year=#curYear#</a><br>
+<a href="#request.serverProtocol##request.serverDomain#/departments/snk5212/IQA/Prog_Plan_KPI.cfm?View=All&Year=#curYear#" target="_blank">#request.serverProtocol##request.serverDomain#/departments/snk5212/IQA/Prog_Plan_KPI.cfm?View=All&Year=#curYear#</a><br>
 (adjust year in URL as needed)<br><br>
 
 <b>Current Active Scheme Count</b><br>
 <cfinput type="text" name="CurrentSchemeCount" size="10" data-bvalidator="required" data-bvalidator-msg="Current Active Scheme Count" value="#CurrentSchemeCount#"><br>
 
 Data can be obtained from this page (on the bottom of the page, see heading "Adjusted Number of Schemes"<Br>
-<a href="http://usnbkiqas100p/departments/snk5212/IQA/Prog_Plan_KPI.cfm?View=All&Year=#curYear#" target="_blank">http://usnbkiqas100p/departments/snk5212/IQA/Prog_Plan_KPI.cfm?View=All&Year=#curYear#</a><br>
+<a href="#request.serverProtocol##request.serverDomain#/departments/snk5212/IQA/Prog_Plan_KPI.cfm?View=All&Year=#curYear#" target="_blank">#request.serverProtocol##request.serverDomain#/departments/snk5212/IQA/Prog_Plan_KPI.cfm?View=All&Year=#curYear#</a><br>
 (adjust year in URL as needed)<br><br>
 
 <b>Target (from Audit Planning), Schemes by Quarter</b><br>
@@ -62,13 +62,13 @@ Q3 <cfinput type="text" name="SchemesQ3" value="#SchemesQ3#" size="10" data-bval
 Q4 <cfinput type="text" name="SchemesQ4" value="#SchemesQ4#" size="10" data-bvalidator="required" data-bvalidator-msg="Covered Schemes Q4"><br><br>
 
 Data can be obtained using the following pages:<Br>
-<a href="http://usnbkiqas100p/departments/snk5212/IQA/admin/KPI_SchemesPerAudit.cfm?Year=#CurYear#" target="_blank">http://usnbkiqas100p/departments/snk5212/IQA/admin/KPI_SchemesPerAudit.cfm?Year=#CurYear#</a><br>
-<a href="http://usnbkiqas100p/departments/snk5212/IQA/Prog_Plan_KPI.cfm?View=All&Year=#curYear#" target="_blank">http://usnbkiqas100p/departments/snk5212/IQA/Prog_Plan_KPI.cfm?View=All&Year=#curYear#</a> (adjust year in URL as needed)<br><br>
+<a href="#request.serverProtocol##request.serverDomain#/departments/snk5212/IQA/admin/KPI_SchemesPerAudit.cfm?Year=#CurYear#" target="_blank">#request.serverProtocol##request.serverDomain#/departments/snk5212/IQA/admin/KPI_SchemesPerAudit.cfm?Year=#CurYear#</a><br>
+<a href="#request.serverProtocol##request.serverDomain#/departments/snk5212/IQA/Prog_Plan_KPI.cfm?View=All&Year=#curYear#" target="_blank">#request.serverProtocol##request.serverDomain#/departments/snk5212/IQA/Prog_Plan_KPI.cfm?View=All&Year=#curYear#</a> (adjust year in URL as needed)<br><br>
 
 <b>Corrective Action Customer Survey</b><br>
 <cfinput type="text" name="CARSurvey" value="#CARSurvey#" size="10" data-bvalidator="required" data-bvalidator-msg="CAR Survey"><br>
 
-Data from: <a href="http://usnbkiqas100p/departments/snk5212/IQA/CARSurvey_Metrics.cfm?Year=#curYear#" target="_blank">http://usnbkiqas100p/departments/snk5212/IQA/CARSurvey_Metrics.cfm?Year=#curYear#</a><br><Br>
+Data from: <a href="#request.serverProtocol##request.serverDomain#/departments/snk5212/IQA/CARSurvey_Metrics.cfm?Year=#curYear#" target="_blank">#request.serverProtocol##request.serverDomain#/departments/snk5212/IQA/CARSurvey_Metrics.cfm?Year=#curYear#</a><br><Br>
 
 <b>Effectively Closed CAR Percentage</b> (Digits Only)<br>
 <cfinput type="text" name="CARVerifiedEffective" size="10" data-bvalidator="required" data-bvalidator-msg="Effectively Closed CAR Percentage" value="#CARVerifiedEffective#"><br>

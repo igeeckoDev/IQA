@@ -123,7 +123,7 @@ AND Year_ = #URL.Year#
         Thank you for participating in this Internal Quality Audit. We would greatly appreciate it if you can take a few minutes of your time to fill out the below survey. The survey will assist us in improving our current process.<br /><br />
 
         Please use the following link to complete the Audit Survey:<Br />
-        <a href="http://usnbkiqas100p/departments/snk5212/IQA/AuditSurvey.cfm?ID=#URL.ID#&year=#URL.Year#">#Form.SurveyBody#</a><br><br>
+        <a href="#request.serverProtocol##request.serverDomain#/departments/snk5212/IQA/AuditSurvey.cfm?ID=#URL.ID#&year=#URL.Year#">#Form.SurveyBody#</a><br><br>
 
         If you wish to have additional staff complete this survey, simply forward this email to them, including the above link.<br /><br />
 

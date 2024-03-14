@@ -28,7 +28,7 @@ Preparation for 2013 Corporate Internal Quality Audits is in its initial stages.
 At this time, I am requesting your input for the 2013 audit year. This information will be included in our audit plans.<br><br>
 
 Please follow the link below to provide information pertaining to #Type#:<br>
-<a href="http://usnbkiqas100p/departments/snk5212/IQA/Planning/getEmpNo.cfm?UserID=#ID#">http://usnbkiqas100p/departments/snk5212/IQA/Planning/getEmpNo.cfm?UserID=#ID#</a><br><br>
+<a href="#request.serverProtocol##request.serverDomain#/departments/snk5212/IQA/Planning/getEmpNo.cfm?UserID=#ID#">#request.serverProtocol##request.serverDomain#/departments/snk5212/IQA/Planning/getEmpNo.cfm?UserID=#ID#</a><br><br>
 
 If someone will be providing this information on your behalf, forward this email to them including the link above.<br><br>
 

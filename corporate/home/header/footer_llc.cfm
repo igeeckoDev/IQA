@@ -1,13 +1,13 @@
   <div id="footer"> 
     <span class="left">
-    
+      <cfoutput>
     <a href="/help.htm" title="Help">Help</a> | 
     <a href="/sitemap.htm" title="Site Map">Site Map</a> | 
-    <a href="http://usnbkiqas100p/deptadmin/Marco/index.htm" title="MARCO">UL Intranet Site Request</a>  
+    <a href="#request.serverProtocol##request.serverDomain#/deptadmin/Marco/index.htm" title="MARCO">UL Intranet Site Request</a>  
     </span> 
     <span class="right">&copy; UL LLC.</span> 
     </div>
-		
+		</cfoutput>
 		</div>
 	
 <script type="text/javascript">

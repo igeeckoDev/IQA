@@ -356,14 +356,14 @@ The following email will be sent when you publish this report:<br><br>
 The Quality System Audit of <u>#incBody#</u> has been completed.<br /><br />
 
 You can review the Audit Summary, Findings/Observations and Audit Coverage by following the link to the Audit Report below:<br />
-<a href=http://usnbkiqas100p/departments/snk5212/IQA/Report_Output_all.cfm?ID=#ID#&Year=#Year#&AuditedBy=#AuditedBy#>
-http://usnbkiqas100p/departments/snk5212/IQA/Report_Output_all.cfm?ID=#ID#&Year=#Year#&AuditedBy=#AuditedBy#
+<a href=#request.serverProtocol##request.serverDomain#/departments/snk5212/IQA/Report_Output_all.cfm?ID=#ID#&Year=#Year#&AuditedBy=#AuditedBy#>
+#request.serverProtocol##request.serverDomain#/departments/snk5212/IQA/Report_Output_all.cfm?ID=#ID#&Year=#Year#&AuditedBy=#AuditedBy#
 </a>
 <br><br>
 
 Audit Details:<br>
-<a href=http://usnbkiqas100p/departments/snk5212/IQA/auditdetails.cfm?ID=#ID#&Year=#Year#>
-http://usnbkiqas100p/departments/snk5212/IQA/auditdetails.cfm?ID=#ID#&Year=#Year#
+<a href=#request.serverProtocol##request.serverDomain#/departments/snk5212/IQA/auditdetails.cfm?ID=#ID#&Year=#Year#>
+#request.serverProtocol##request.serverDomain#/departments/snk5212/IQA/auditdetails.cfm?ID=#ID#&Year=#Year#
 </a>
 <br><br>
 

@@ -1,4 +1,5 @@
 <cfoutput>
+<cfparam name="CurTimeDate" default="#now()#">
 <cfsavecontent variable="errorText">
 <table border="1" class="blog-content">
 <tr>

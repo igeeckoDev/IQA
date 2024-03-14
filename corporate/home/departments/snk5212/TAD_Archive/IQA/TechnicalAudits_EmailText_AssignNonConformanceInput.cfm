@@ -41,7 +41,7 @@ Task Assigned To: #ReplyTo# (Technical Audit Manager)
 </cfif><br /><br />
 
 Click below to open the audit: #varAuditIdentifier#<br />
-<a href="http://usnbkiqas100p/departments/snk5212/IQA/TechnicalAudits_getRole.cfm?page=TechnicalAudits_AuditDetails&ID=#URL.ID#&Year=#URL.Year#">
+<a href="#request.serverProtocol##request.serverDomain#/departments/snk5212/IQA/TechnicalAudits_getRole.cfm?page=TechnicalAudits_AuditDetails&ID=#URL.ID#&Year=#URL.Year#">
 Link to Audit</a><br><br>
 
 Note: Please use Internet Explorer to follow this link. If IE is not your default browser, right-click the link above and select "Copy Hyperlink" in order to paste this link into IE.<br><br>

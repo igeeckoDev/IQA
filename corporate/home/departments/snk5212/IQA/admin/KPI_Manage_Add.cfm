@@ -40,7 +40,9 @@ WHERE ID = #KPI.MaxID#
 		</tr>
 		<tr>
 			<td>
-				<a href="http://usnbkiqas100p/departments/snk5212/IQA/Admin/AuditSurvey_Metrics.cfm?Year=2017" target="_blank">IQA Customer Satisfaction Survey</a> (YTD)
+			<cfoutput>
+				<a href="#request.serverProtocol##request.serverDomain#/departments/snk5212/IQA/Admin/AuditSurvey_Metrics.cfm?Year=2017" target="_blank">IQA Customer Satisfaction Survey</a> (YTD)
+			</cfoutput>
 			</td>
 			<td align="center">
 				<CFQUERY BLOCKFACTOR="100" name="AuditSurvey" Datasource="UL06046" username="#OracleDB_Username#" password="#OracleDB_Password#">
@@ -179,7 +181,7 @@ WHERE ID = #KPI.MaxID#
 		</tr>
 		<tr>
 			<td>
-				<a href="http://usnbkiqas100p/departments/snk5212/IQA/Admin/CARSurvey_Metrics.cfm?Year=2017" target="_blank">Corrective Action Customer Survey</a> (YTD)
+				<a href="#request.serverProtocol##request.serverDomain#/departments/snk5212/IQA/Admin/CARSurvey_Metrics.cfm?Year=2017" target="_blank">Corrective Action Customer Survey</a> (YTD)
 			</td>
 			<td align="center">
 				<CFQUERY BLOCKFACTOR="100" name="CARSurvey" Datasource="UL06046" username="#OracleDB_Username#" password="#OracleDB_Password#">

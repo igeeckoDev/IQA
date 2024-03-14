@@ -102,7 +102,7 @@ Author of Change: #RevAuthor#<br />
 Details of Change: #RevDetails#<br /><br />
 
 Link to Program Details Page:<br />
-http://usnbkiqas100p/departments/snk5212/iqa/_prog_detail.cfm?progid=#max.maxid#
+#request.serverProtocol##request.serverDomain#/departments/snk5212/iqa/_prog_detail.cfm?progid=#max.maxid#
 </cfmail>
 --->
 

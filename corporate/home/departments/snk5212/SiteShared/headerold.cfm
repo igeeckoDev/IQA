@@ -23,7 +23,7 @@
     <!--- test --->
 	<!---<link rel="stylesheet" type="text/css" href="http://<cfoutput>usnbkiqas100p</cfoutput>/header/header2011.css" />--->
     <!---<link rel="stylesheet" type="text/css" href="http://<cfoutput>usnbkiqas100p</cfoutput>/header/style.css" />--->
-    <!---<script type="text/javascript" src="http://usnbkiqas100p/header/jquery-1.2.6.js"></script>--->
+    <!---<script type="text/javascript" src="#request.serverProtocol##request.serverDomain#/header/jquery-1.2.6.js"></script>--->
 
 	<!---
 	<link href="http://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css" rel="stylesheet">

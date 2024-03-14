@@ -245,7 +245,7 @@ ID = #NewID.NewID#
             type="html">
             An Audit Request has been submitted on the IQA website. You can view it by following the link below:<br /><br />
             
-            <a href="http://usnbkiqas100p/departments/snk5212/IQA/Planning/AuditPlanning_Details_Review.cfm?ID=#NewID.NewID#&View=Browse">View Request</a>
+            <a href="#request.serverProtocol##request.serverDomain#/departments/snk5212/IQA/Planning/AuditPlanning_Details_Review.cfm?ID=#NewID.NewID#&View=Browse">View Request</a>
         </cfmail>
 	</cfif>
 </cfif>

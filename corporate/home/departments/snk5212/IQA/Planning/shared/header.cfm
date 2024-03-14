@@ -7,7 +7,7 @@
 	<title>#Request.SiteTitle#</title>
 	<META NAME="description" CONTENT="#Request.MetaDescription#">
 	<META NAME="keywords" CONTENT="#Request.MetaKeywords#">
-    <script type="text/javascript" src="http://usnbkiqas100p/header/jquery-1.2.6.js"></script>
+    <script type="text/javascript" src="#request.serverProtocol##request.serverDomain#/header/jquery-1.2.6.js"></script>
 	</cfoutput>
 	<link rel="stylesheet" type="text/css" media="screen" href="cr_style.css" />
 	<link rel="stylesheet" type="text/css" media="print" href="cr_style.css" />
@@ -18,7 +18,9 @@
 
 <!-- Change header theme by changing body class [red|black]-->
 <body>
-<script language=JavaScript src="http://usnbkiqas100p/header/header2011.js"></script>
+<cfoutput>
+<script language=JavaScript src="#request.serverProtocol##request.serverDomain#/header/header2011.js"></script>
+</cfoutput>
 <div id="header">
 <br /><br />
   <table border="0" cellspacing="0" cellpadding="0" width="776">

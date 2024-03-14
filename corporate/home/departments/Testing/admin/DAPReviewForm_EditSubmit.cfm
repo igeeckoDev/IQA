@@ -88,12 +88,12 @@ ORDER BY
 			to="Cheryl.Adams@ul.com"
 			replyto="Cheryl.Adams@ul.com, #Form.ReviewerName#"
 			from="DAP_Review_Team@ul.com"
-			subject="DAP/CTF/CBTL Audit Project Review – Project #Form.ProjectNumber#"
+			subject="DAP/CTF/CBTL Audit Project Review ï¿½ Project #Form.ProjectNumber#"
 			type="HTML">
 		The Quality Engineering, Performance Management group has a team of Reviewers who conducts periodic reviews of DAP, CTF and CBTL audit projects in order to help enhance the performance of Lead Auditors and to facilitate a consistent, high quality experience for our clients.<br><br>
 
 		A review was recently completed of a project on which you served as Lead Auditor.  The project details and review results can be seen by following the link below:<br>
-		<a href="http://usnbkiqas100p/departments/snk5212/IQA/DAPReviewForm_Details.cfm?ID=#URL.ID#">DAP/CTF/CBTL Audit Project Review - #Form.ProjectNumber#</a><br><br>
+		<a href="#request.serverProtocol##request.serverDomain#/departments/snk5212/IQA/DAPReviewForm_Details.cfm?ID=#URL.ID#">DAP/CTF/CBTL Audit Project Review - #Form.ProjectNumber#</a><br><br>
 
 		Please look at the project review closely.  Some good items/practices are highlighted.  Nice job!  There were also significant concerns identified.  It is important that you understand the concerns.  The Reviewer noted on the project review will contact you to discuss the review.  After the discussion, a plan will be determined for any additional requirements for continuing to serve as a Lead Auditor.<br><br>
 
@@ -107,12 +107,12 @@ ORDER BY
 			to="Cheryl.Adams@ul.com"
 			replyto="Cheryl.Adams@ul.com, #Form.ReviewerName#"
 			from="DAP_Review_Team@ul.com"
-			subject="DAP/CTF/CBTL Audit Project Review – Project #Form.ProjectNumber#"
+			subject="DAP/CTF/CBTL Audit Project Review ï¿½ Project #Form.ProjectNumber#"
 			type="HTML">
 		The Quality Engineering, Performance Management group has a team of Reviewers who conducts periodic reviews of DAP, CTF and CBTL audit projects in order to help enhance the performance of Lead Auditors and to facilitate a consistent, high quality experience for our clients.<br><br>
 
 		A review was recently completed of a project on which you served as Lead Auditor.  The review results can be viewed by following this link:<br>
-		<a href="http://usnbkiqas100p/departments/snk5212/IQA/DAPReviewForm_Details.cfm?ID=#URL.ID#">DAP/CTF/CBTL Audit Project Review - #Form.ProjectNumber#</a><br><br>
+		<a href="#request.serverProtocol##request.serverDomain#/departments/snk5212/IQA/DAPReviewForm_Details.cfm?ID=#URL.ID#">DAP/CTF/CBTL Audit Project Review - #Form.ProjectNumber#</a><br><br>
 
 		Please look at the project review closely.  Some good items/practices are highlighted.  Nice job!  Please note any suggestions identified.<br><br>
 

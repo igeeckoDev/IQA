@@ -268,7 +268,7 @@
                 <u>Audit Area</u>: #Trim(Area)#<br>
                 <u>Location</u>: #Trim(Officename)#<br>
                 <u>Lead Auditor</u>: #LeadAuditor#<br>
-                <u>Audit Details</u>: http://usnbkiqas100p/departments/snk5212/IQA/auditdetails.cfm?ID=#ID#&Year=#Year#<br><br>
+                <u>Audit Details</u>: #request.serverProtocol##request.serverDomain#/departments/snk5212/IQA/auditdetails.cfm?ID=#ID#&Year=#Year#<br><br>
 
                 <!---
                 <cfset N = #ReplaceNoCase(RescheduleNotes,chr(13),"<br>", "ALL")#>
@@ -314,7 +314,7 @@
                         </cfif><br />
 					</cfif>
 
-                    <u>Audit Details</u>: http://usnbkiqas100p/departments/snk5212/IQA/auditdetails.cfm?ID=#ID#&Year=#Year#<br><br>
+                    <u>Audit Details</u>: #request.serverProtocol##request.serverDomain#/departments/snk5212/IQA/auditdetails.cfm?ID=#ID#&Year=#Year#<br><br>
 
                     <!---
                     <cfset N = #ReplaceNoCase(RescheduleNotes,chr(13),"<br>", "ALL")#>
@@ -348,7 +348,7 @@
                         Start Date: #Dateformat(orig.StartDate, "mm/dd/yyyy")#<Br />
                         End Date: #Dateformat(orig.EndDate, "mm/dd/yyyy")#<Br /><br />
 
-                        <u>Audit Details</u>: http://usnbkiqas100p/departments/snk5212/IQA/auditdetails.cfm?ID=#ID#&Year=#Year#<br><br>
+                        <u>Audit Details</u>: #request.serverProtocol##request.serverDomain#/departments/snk5212/IQA/auditdetails.cfm?ID=#ID#&Year=#Year#<br><br>
 
                         Please contact #Request.contacts_CancelRescheduleAudits# for any questions or issues.
                     </cfmail>

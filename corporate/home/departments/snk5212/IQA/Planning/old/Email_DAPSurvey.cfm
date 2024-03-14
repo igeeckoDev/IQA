@@ -28,12 +28,12 @@ To help us in the process, we are requesting your input in meeting our shared go
 in our audit and training plans.<br><br>
 
 Please follow the link below to provide information pertaining to your Business Unit/Industry:<br>
-<a href="http://usnbkiqas100p/departments/snk5212/IQA/Planning/getEmpNo_DAP.cfm?UserID=#ID#">http://usnbkiqas100p/departments/snk5212/IQA/Planning/getEmpNo_DAP.cfm?UserID=#ID#</a><br><br>
+<a href="#request.serverProtocol##request.serverDomain#/departments/snk5212/IQA/Planning/getEmpNo_DAP.cfm?UserID=#ID#">#request.serverProtocol##request.serverDomain#/departments/snk5212/IQA/Planning/getEmpNo_DAP.cfm?UserID=#ID#</a><br><br>
 
 If someone will be providing this information on your behalf, forward this email to them including the link above.<br><br>
 
 To view the distribution list, please use the following link:<br />
-<a href="http://usnbkiqas100p/departments/snk5212/IQA/Planning/DAP_Distribution_2016.cfm">http://usnbkiqas100p/departments/snk5212/IQA/Planning/DAP_Distribution_2016.cfm</a><br /><br />
+<a href="#request.serverProtocol##request.serverDomain#/departments/snk5212/IQA/Planning/DAP_Distribution_2016.cfm">#request.serverProtocol##request.serverDomain#/departments/snk5212/IQA/Planning/DAP_Distribution_2016.cfm</a><br /><br />
 
 Please respond by <b>December 18, 2015</b>.<br><br>
 

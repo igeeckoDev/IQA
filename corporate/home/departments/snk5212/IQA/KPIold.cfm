@@ -442,8 +442,8 @@ $(document).ready(function() {
 	</table>
 
 	<br>
-	View: <a href="http://usnbkiqas100p/departments/snk5212/IQA/CARSurvey_Metrics.cfm?Year=All" target="_blank">Corrective Action Customer Survey Details</a><br>
-	View: <a href="http://usnbkiqas100p/departments/snk5212/IQA/CARSurvey_Metrics.cfm?Year=All" target="_blank">GCAR Metrics Data</a><br><Br>
+	View: <a href="#request.serverProtocol##request.serverDomain#/departments/snk5212/IQA/CARSurvey_Metrics.cfm?Year=All" target="_blank">Corrective Action Customer Survey Details</a><br>
+	View: <a href="#request.serverProtocol##request.serverDomain#/departments/snk5212/IQA/CARSurvey_Metrics.cfm?Year=All" target="_blank">GCAR Metrics Data</a><br><Br>
 
 	
 
@@ -451,21 +451,21 @@ $(document).ready(function() {
 <tr>
 <td>
 <b><u>Notes and Definitions</u></b><br><br>
-
+<cfoutput>
 <b>Internal Quality Audit</b><br>
 <u>IQA Customer Satisfaction Survey</u><br>
-Audit recipients receive a survey at the completion of each IQA audit. The results can be viewed here: <a href="http://usnbkiqas100p/departments/snk5212/IQA/AuditSurvey_Metrics.cfm?Year=All" target="_blank">IQA Customer Satisfaction Survey Details</a>
+Audit recipients receive a survey at the completion of each IQA audit. The results can be viewed here: <a href="#request.serverProtocol##request.serverDomain#/departments/snk5212/IQA/AuditSurvey_Metrics.cfm?Year=All" target="_blank">IQA Customer Satisfaction Survey Details</a>
 <br><br>
 
 <u>Schemes/Programs Coverage</u><br>
 This chart shows the number of schemes that are planned to be audited at the beginning of the year (Target). The "Actual" represents the number of schemes that were covered throughout the year. The number may be different than the "Target" due to the addition of new schemes by UL throughout the year.<br><br>
 
 Above the chart, there are several calculations. The number of current number of schemes is listed, as well as the total number of IQA audits, and the "Average Number of Audits per Scheme" shows how many times we audit a scheme throughout the year.<br><br>
-View: <a href="http://usnbkiqas100p/departments/snk5212/IQA/prog_plan.cfm" target="_blank"> Scheme Coverage Details</a><br><br>
+View: <a href="#request.serverProtocol##request.serverDomain#/departments/snk5212/IQA/prog_plan.cfm" target="_blank"> Scheme Coverage Details</a><br><br>
 	
 <b>Corrective Action Process</b><br>
 <u>Corrective Action Customer Satisfaction Survey</u><br>
-CAR Owners receive a survey when a CAR reaches the "Closed - Awaiting Verification" state. The results can be viewed here: <a href="http://usnbkiqas100p/departments/snk5212/IQA/CARSurvey_Metrics.cfm?Year=All" target="_blank">Corrective Action Customer Satisfaction Survey</a>.
+CAR Owners receive a survey when a CAR reaches the "Closed - Awaiting Verification" state. The results can be viewed here: <a href="#request.serverProtocol##request.serverDomain#/departments/snk5212/IQA/CARSurvey_Metrics.cfm?Year=All" target="_blank">Corrective Action Customer Satisfaction Survey</a>.
 <br><br>
 
 <u>Median Duration of Corrective Actions for Findings</u><br>
@@ -487,7 +487,7 @@ All KPIs are updated monthly; except for Schemes/Programs Coverage (Quarterly).<
 </td>
 </tr>
 </table>
-
+</cfoutput>
 <!--- Footer, End of Page HTML --->
 <cfinclude template="#SiteDir#SiteShared/EndOfPage.cfm">
 <!--- / --->

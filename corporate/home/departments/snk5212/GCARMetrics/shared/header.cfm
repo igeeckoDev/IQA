@@ -209,11 +209,11 @@ document.onclick=hidemenu
 
 </head>
 <body>
-
+<cfoutput>
 <!-- Begin UL Net Header -->
-<SCRIPT language=JavaScript src="http://usnbkiqas100p/header/header.js"></SCRIPT>
+<SCRIPT language=JavaScript src="#request.serverProtocol##request.serverDomain#/header/header.js"></SCRIPT>
 <!-- End UL Net Header-->
-
+</cfoutput>
 <div id="header">
   <table border="0" cellspacing="0" cellpadding="0" width="776">
     <tr>

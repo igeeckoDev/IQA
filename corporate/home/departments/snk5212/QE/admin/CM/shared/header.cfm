@@ -200,9 +200,9 @@ document.onclick=hidemenu
 
 </head>
 <body>
-
+<cfoutput>
 <!-- Begin UL Net Header -->
-<SCRIPT language=JavaScript src="http://usnbkiqas100p/header/header.js"></SCRIPT>
+<SCRIPT language=JavaScript src="#request.serverProtocol##request.serverDomain#/header/header.js"></SCRIPT>
 <!-- End UL Net Header-->
 
 <div id="header">
@@ -213,12 +213,12 @@ document.onclick=hidemenu
     <tr>
       <td align="center" valign="middle" width="158">
         <div class="navdate">
-			<cfoutput>
+			
 				#dateformat(now(), "MMMM d, yyyy")#
-        	</cfoutput>
+        	
 		</div>
 	</td>
-<td align="left" valign="top" width="618" height="23">
+<td align="left" valign="top" width="618" height="23"></cfoutput>
 	<!---
 	<!--- QE --->
 	<a href="/">

@@ -43,7 +43,7 @@ AND ID = <cfqueryparam value="#URL.ID#" cfsqltype="cf_sql_integer">
         Start Date - #dateformat(MonthCheck.StartDate, "mm/dd/yyyy")#<br />
         End Date - #dateformat(MonthCheck.EndDate, "mm/dd/yyyy")#<br /><Br />
 
-        <a href="http://usnbkiqas100p/departments/snk5212/IQA/auditdetails.cfm?id=#URL.ID#&year=#URL.Year#">View</a> Audit Details<br /><br />
+        <a href="#request.serverProtocol##request.serverDomain#/departments/snk5212/IQA/auditdetails.cfm?id=#URL.ID#&year=#URL.Year#">View</a> Audit Details<br /><br />
 
         <cflock scope="session" timeout="5">
         Please contact #NewMonth.ASContact# (AS Contact for this audit) for more information.<Br />

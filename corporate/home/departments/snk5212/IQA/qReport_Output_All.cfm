@@ -850,7 +850,7 @@ None Listed
 	</cfif>
 
 <cfoutput>
-<a href="http://usnbkiqas100p/departments/snk5212/IQA/KB.cfm?ID=57" target="_blank">View</a> Matrix of Standard Categories for Non-Conformances and Audit Coverage since Janaury 1, 2019 <Br><br>
+<a href="#request.serverProtocol##request.serverDomain#/departments/snk5212/IQA/KB.cfm?ID=57" target="_blank">View</a> Matrix of Standard Categories for Non-Conformances and Audit Coverage since Janaury 1, 2019 <Br><br>
 <a href="#IQARootDir#matrix.cfm" target="_blank">View</a> Matrix of Standard Categories for Non-Conformances and Audit Coverage (<u>before 2019</u>)<Br><br>
 
 <u>Note</u>: The Matrix of Standard Categories is a compilation of relevant International Standards used in internal audits. Each Standard Clause is grouped with the headings seen in the table below to provide a simplified and comprehensive overview of the audit. Please view the above linked Matrix to view the Categories, and associated Standards and Clauses.<br>

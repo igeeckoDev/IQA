@@ -116,7 +116,7 @@ WHERE ID = #URL.ID#
 	</cfif>
 </cftextarea><br />
 
-<cfset goToPage = replace(cgi.HTTP_REFERER, "http://usnbkiqas100p/departments/snk5212/GCARMetrics/", "")>
+<cfset goToPage = replace(cgi.HTTP_REFERER, "#request.serverProtocol##request.serverDomain#/departments/snk5212/GCARMetrics/", "")>
 <cfinput type="hidden" name="refer" value="#goToPage#" />
 
 <cfinput type="Submit" name="Submit" value="Add #CommentsName#">

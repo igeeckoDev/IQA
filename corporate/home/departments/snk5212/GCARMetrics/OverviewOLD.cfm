@@ -6,9 +6,9 @@
 <cfinclude template="#SiteDir#SiteShared/StartOfPage.cfm">
 
 <b>Note</b> - The system was designed to be used with <u>Internet Explorer</u>. Some differences may exist when using other browsers.<br><br>
-
-If you are having trouble with exporting CAR data with a browser other than IE, try using IE and follow the steps in <a href="http://usnbkiqas100p/departments/snk5212/GCARMetrics/Overview.cfm#5">Item 5 "Exporting GCAR Data"</a>, item 1 and 2.<Br>
-
+<cfoutput>
+If you are having trouble with exporting CAR data with a browser other than IE, try using IE and follow the steps in <a href="#request.serverProtocol##request.serverDomain#/departments/snk5212/GCARMetrics/Overview.cfm##5">Item 5 "Exporting GCAR Data"</a>, item 1 and 2.<Br>
+</cfoutput>
 <br>
 <hr class='dash'>
 <br>

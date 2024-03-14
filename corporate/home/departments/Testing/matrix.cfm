@@ -21,10 +21,10 @@ ORDER BY ID
 <tr>
 <td class="blog-content" valign="top" align="left" colspan="8">
 The matrix groups document clauses into main headings for use with the Audit Coverage section of Audit Report. The documents are ISO/IEC 17025:2005, ISO/IEC 17020:1998, ISO/IEC Guide 65:1996, ISO/IEC Guide 17021:2011, ISO 9001:2008, ISO 17025:2017 and Additional requirement as per SCC SCC Requirement and Guidance Document for Accreditation Bodies<br><br>
-
-See ISO/IEC 17065:2012 based Standard Category Matrix for linkages to <u>ISO 9001:2015, ISO 17021-1:2015</u>: <a href="http://usnbkiqas100p/departments/snk5212/IQA/KB.cfm?ID=57">View</a><br><br>
-
 <cfoutput>
+See ISO/IEC 17065:2012 based Standard Category Matrix for linkages to <u>ISO 9001:2015, ISO 17021-1:2015</u>: <a href="#request.serverProtocol##request.serverDomain#/departments/snk5212/IQA/KB.cfm?ID=57">View</a><br><br>
+
+
 (Current Revision: 8, May 16, 2018 :: <a href="#IQARootDir#matrix_revhistory.cfm">View</a> History)<br><br>
 </cfoutput>
 

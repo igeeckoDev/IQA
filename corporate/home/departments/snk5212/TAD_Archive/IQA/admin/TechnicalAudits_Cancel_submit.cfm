@@ -40,7 +40,7 @@
         The following audit has been cancelled:<br><br>
 
         <u>Audit</u>: #url.year#-#url.id# / #varAuditIdentifier#<br>
-        <u>Audit Details</u>: http://usnbkiqas100p/departments/snk5212/IQA/TechnicalAudits_AuditDetails.cfm?ID=#ID#&Year=#Year#<br><br>
+        <u>Audit Details</u>: #request.serverProtocol##request.serverDomain#/departments/snk5212/IQA/TechnicalAudits_AuditDetails.cfm?ID=#ID#&Year=#Year#<br><br>
 
         <u>Cancellation Comments</u>: #N#<br /><br />
 

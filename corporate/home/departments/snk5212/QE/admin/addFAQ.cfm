@@ -102,7 +102,7 @@
 A new CAR Process FAQ (Item #ID#) has been added by #Added# on #dateformat(curdate, "mmmm dd, yyyy")#. This item is categorized for <cfif Category is "Admin">CAR Admins<cfelseif Category is "Owner">CAR Owners<cfelseif Category is "Both">both CAR Admins and CAR Owners</cfif>.
 
 Please follow the link below to view the new item:
-http://usnbkiqas100p/departments/snk5212/QE/FAQ.cfm###ID#
+#request.serverProtocol##request.serverDomain#/departments/snk5212/QE/FAQ.cfm###ID#
 	</cfmail>
 		
 <cfoutput>

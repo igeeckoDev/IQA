@@ -346,7 +346,7 @@ WHERE
                     A detailed review and analysis was conducted in order to determine that the supporting documents, data recording and/or decision granting certification fulfilled UL requirements and were technically correct. The results of the project audit demonstrated full compliance.<br /><br />
                     
                     Click below to open the audit:<br />
-                    <a href="http://usnbkiqas100p/departments/snk5212/IQA/TechnicalAudits_getRole.cfm?page=TechnicalAudits_AuditDetails&ID=#URL.ID#&Year=#URL.Year#">
+                    <a href="#request.serverProtocol##request.serverDomain#/departments/snk5212/IQA/TechnicalAudits_getRole.cfm?page=TechnicalAudits_AuditDetails&ID=#URL.ID#&Year=#URL.Year#">
                     Link to Audit</a><br /><br />
 
 					On behalf of UL, we thank you for the valuable and continued contributions to be the Fasted, Highest Quality &amp; Most Customer Friendly third party Conformity Assessment Company in the world.<br<br />
@@ -370,7 +370,7 @@ WHERE
                     #AssignTaskTo# (Technical Audit Manager)<cfif Audit.AuditType2 eq "Full">, #ROM# (Regional Operations Manager)</cfif><br /><br />
                     
                     Click below to open the audit:<br />
-                    <a href="http://usnbkiqas100p/departments/snk5212/IQA/TechnicalAudits_getRole.cfm?page=TechnicalAudits_AuditDetails&ID=#URL.ID#&Year=#URL.Year#">
+                    <a href="#request.serverProtocol##request.serverDomain#/departments/snk5212/IQA/TechnicalAudits_getRole.cfm?page=TechnicalAudits_AuditDetails&ID=#URL.ID#&Year=#URL.Year#">
                     Link to Audit</a><br /><br />
                     
                     This task has a due date of: #dateformat(NCReviewDueDate, "mm/dd/yyyy")#
@@ -546,7 +546,7 @@ WHERE
                     Audit Identifier: #varAuditIdentifier#<br /><br />
 
 					Click below to open the audit: #varAuditIdentifier#<br />
-					<a href="http://usnbkiqas100p/departments/snk5212/IQA/TechnicalAudits_getRole.cfm?page=TechnicalAudits_AuditDetails&ID=#URL.ID#&Year=#URL.Year#">Link to Audit</a><br /><br />
+					<a href="#request.serverProtocol##request.serverDomain#/departments/snk5212/IQA/TechnicalAudits_getRole.cfm?page=TechnicalAudits_AuditDetails&ID=#URL.ID#&Year=#URL.Year#">Link to Audit</a><br /><br />
                     
                     <cfset CurrentDueDate = #dateformat(AppealAssignDueDate, "mm/dd/yyyy")#>
                     <cfset Email_CurrentStep = "Assignment of Appeals / Appeal Response">
@@ -580,7 +580,7 @@ WHERE
                     This task has a due date of: #dateformat(NCEnteredDueDate, "mm/dd/yyyy")#<br /><br />
                     
                     Click below to open the audit: #varAuditIdentifier#<br />
-					<a href="http://usnbkiqas100p/departments/snk5212/IQA/TechnicalAudits_getRole.cfm?page=TechnicalAudits_AuditDetails&ID=#URL.ID#&Year=#URL.Year#">Link to Audit</a><br /><br />
+					<a href="#request.serverProtocol##request.serverDomain#/departments/snk5212/IQA/TechnicalAudits_getRole.cfm?page=TechnicalAudits_AuditDetails&ID=#URL.ID#&Year=#URL.Year#">Link to Audit</a><br /><br />
         
                     Technical Audit Manager - Please log in to the IQA Audit Database to view the audit details and perform the assigned task.
                 </cfmail>
@@ -606,7 +606,7 @@ WHERE
                             2. Due Date for the Corrective Action(s) to be completed: #dateformat(SRCARDueDate, "mm/dd/yyyy")#. This information must be communicated to the SQM and ROM.<br /><br />
                             
                             Click below to open the audit: #varAuditIdentifier#<br />
-					<a href="http://usnbkiqas100p/departments/snk5212/IQA/TechnicalAudits_getRole.cfm?page=TechnicalAudits_AuditDetails&ID=#URL.ID#&Year=#URL.Year#">Link to Audit</a><br /><br />
+					<a href="#request.serverProtocol##request.serverDomain#/departments/snk5212/IQA/TechnicalAudits_getRole.cfm?page=TechnicalAudits_AuditDetails&ID=#URL.ID#&Year=#URL.Year#">Link to Audit</a><br /><br />
                             
                             If you have any questions, please contact any member of the Technical Audit Team.<br /><br />
                             
@@ -708,7 +708,7 @@ WHERE
                 </cfif>
                 
                 Click below to open the audit: #varAuditIdentifier#<br />                
-                <a href="http://usnbkiqas100p/departments/snk5212/IQA/TechnicalAudits_getRole.cfm?page=TechnicalAudits_AuditDetails&ID=#URL.ID#&Year=#URL.Year#">
+                <a href="#request.serverProtocol##request.serverDomain#/departments/snk5212/IQA/TechnicalAudits_getRole.cfm?page=TechnicalAudits_AuditDetails&ID=#URL.ID#&Year=#URL.Year#">
                 Link to Audit
                 </a><br /><br />
 
@@ -855,7 +855,7 @@ WHERE
                         SQM: #getROM.SQM#<br />
                         ROM: #ROM#<br /><br />
                         
-                        <a href="http://usnbkiqas100p/departments/snk5212/IQA/TechnicalAudits_getRole.cfm?page=TechnicalAudits_AuditDetails&ID=#URL.ID#&Year=#URL.Year#">Link to Audit</a>
+                        <a href="#request.serverProtocol##request.serverDomain#/departments/snk5212/IQA/TechnicalAudits_getRole.cfm?page=TechnicalAudits_AuditDetails&ID=#URL.ID#&Year=#URL.Year#">Link to Audit</a>
                     </cfmail>    
                 </cfif>
                 <!--- /// --->
@@ -881,7 +881,7 @@ WHERE
                 </cfif>
 
                 Click below to open the audit: #varAuditIdentifier#<br />                
-                <a href="http://usnbkiqas100p/departments/snk5212/IQA/TechnicalAudits_getRole.cfm?page=TechnicalAudits_AuditDetails&ID=#URL.ID#&Year=#URL.Year#">
+                <a href="#request.serverProtocol##request.serverDomain#/departments/snk5212/IQA/TechnicalAudits_getRole.cfm?page=TechnicalAudits_AuditDetails&ID=#URL.ID#&Year=#URL.Year#">
                 Link to Audit
                 </a><br /><br />
 
@@ -975,7 +975,7 @@ WHERE
                         Required Action: Audit Ready to be Closed<br /><br />          
                         
                         Click below to open the audit: #varAuditIdentifier#<br />                
-                        <a href="http://usnbkiqas100p/departments/snk5212/IQA/TechnicalAudits_getRole.cfm?page=TechnicalAudits_AuditDetails&ID=#URL.ID#&Year=#URL.Year#">
+                        <a href="#request.serverProtocol##request.serverDomain#/departments/snk5212/IQA/TechnicalAudits_getRole.cfm?page=TechnicalAudits_AuditDetails&ID=#URL.ID#&Year=#URL.Year#">
                         Link to Audit
                         </a><br /><br />
                     </cfmail>
@@ -995,7 +995,7 @@ WHERE
                         This task has a due date of #dateformat(SRCARClosedDueDate, "mm/dd/yyyy")#<br /><br />
                         
                         Click below to open the audit: #varAuditIdentifier#<br />                
-                        <a href="http://usnbkiqas100p/departments/snk5212/IQA/TechnicalAudits_getRole.cfm?page=TechnicalAudits_AuditDetails&ID=#URL.ID#&Year=#URL.Year#">
+                        <a href="#request.serverProtocol##request.serverDomain#/departments/snk5212/IQA/TechnicalAudits_getRole.cfm?page=TechnicalAudits_AuditDetails&ID=#URL.ID#&Year=#URL.Year#">
                         Link to Audit
                         </a>
                     </cfmail>
@@ -1015,7 +1015,7 @@ WHERE
                     Required Action: Audit Ready to be Closed<br /><br />          
                     
                     Click below to open the audit: #varAuditIdentifier#<br />                
-                    <a href="http://usnbkiqas100p/departments/snk5212/IQA/TechnicalAudits_getRole.cfm?page=TechnicalAudits_AuditDetails&ID=#URL.ID#&Year=#URL.Year#">
+                    <a href="#request.serverProtocol##request.serverDomain#/departments/snk5212/IQA/TechnicalAudits_getRole.cfm?page=TechnicalAudits_AuditDetails&ID=#URL.ID#&Year=#URL.Year#">
                     Link to Audit
                     </a><br /><br />
                 </cfmail>
@@ -1128,7 +1128,7 @@ WHERE
                     This task has a due date of #dateformat(SRCARVerifiedDueDate, "mm/dd/yyyy")#<br /><br />
 
                     Click below to open the audit: #varAuditIdentifier#<br />                
-                    <a href="http://usnbkiqas100p/departments/snk5212/IQA/TechnicalAudits_getRole.cfm?page=TechnicalAudits_AuditDetails&ID=#URL.ID#&Year=#URL.Year#">
+                    <a href="#request.serverProtocol##request.serverDomain#/departments/snk5212/IQA/TechnicalAudits_getRole.cfm?page=TechnicalAudits_AuditDetails&ID=#URL.ID#&Year=#URL.Year#">
                     Link to Audit
                     </a>
                 </cfmail>
@@ -1150,7 +1150,7 @@ WHERE
                     This task has a new due date of #dateformat(newDueDate, "mm/dd/yyyy")#<br /><br />
 
                     Click below to open the audit: #varAuditIdentifier#<br />                
-                    <a href="http://usnbkiqas100p/departments/snk5212/IQA/TechnicalAudits_getRole.cfm?page=TechnicalAudits_AuditDetails&ID=#URL.ID#&Year=#URL.Year#">
+                    <a href="#request.serverProtocol##request.serverDomain#/departments/snk5212/IQA/TechnicalAudits_getRole.cfm?page=TechnicalAudits_AuditDetails&ID=#URL.ID#&Year=#URL.Year#">
                     Link to Audit</a>
                 </cfmail>
                 <!--- /// --->
@@ -1260,7 +1260,7 @@ WHERE
                     This is notification that corrective actions have been completed and verified for a #AuditType2# Technical Audit and this audit is ready to be closed.<br /><br />
                     
                     Click below to open the audit: #varAuditIdentifier#<br />                
-                    <a href="http://usnbkiqas100p/departments/snk5212/IQA/TechnicalAudits_getRole.cfm?page=TechnicalAudits_AuditDetails&ID=#URL.ID#&Year=#URL.Year#">
+                    <a href="#request.serverProtocol##request.serverDomain#/departments/snk5212/IQA/TechnicalAudits_getRole.cfm?page=TechnicalAudits_AuditDetails&ID=#URL.ID#&Year=#URL.Year#">
                     Link to Audit
                     </a>
                 </cfmail>
@@ -1283,7 +1283,7 @@ WHERE
                     This task has a new due date of #dateformat(newDueDate, "mm/dd/yyyy")#<br /><br />
 
                     Click below to open the audit: #varAuditIdentifier#<br />                
-                    <a href="http://usnbkiqas100p/departments/snk5212/IQA/TechnicalAudits_getRole.cfm?page=TechnicalAudits_AuditDetails&ID=#URL.ID#&Year=#URL.Year#">
+                    <a href="#request.serverProtocol##request.serverDomain#/departments/snk5212/IQA/TechnicalAudits_getRole.cfm?page=TechnicalAudits_AuditDetails&ID=#URL.ID#&Year=#URL.Year#">
                     Link to Audit</a>
                 </cfmail>
                 <!--- /// --->

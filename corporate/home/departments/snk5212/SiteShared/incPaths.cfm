@@ -1,3 +1,4 @@
+<cfinclude template="../../environment.cfm">
 <cfset SitePath = "#request.applicationFolder#\corporate\home\departments\snk5212\">
 <cfset SiteDir = "/departments/snk5212/">
 

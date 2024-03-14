@@ -462,16 +462,17 @@ document.onclick=hidemenu
 
 <!-- Change header theme by changing body class [red|black]-->
 <body>
-<script language=JavaScript src="http://usnbkiqas100p/header/header2011.js"></script>
+<cfoutput>
+<script language=JavaScript src="#request.serverProtocol##request.serverDomain#/header/header2011.js"></script>
 
 <!--- old
 <body>
 
 <!-- Begin UL Net Header -->
-<SCRIPT language=JavaScript src="http://usnbkiqas100p/header/header.js"></SCRIPT>
+<SCRIPT language=JavaScript src="#request.serverProtocol##request.serverDomain#/header/header.js"></SCRIPT>
 <!-- End UL Net Header-->
 --->
-
+</cfoutput>
 <div id="header">
 <br /><br />
 <table border="0" cellspacing="0" cellpadding="0" width="800">

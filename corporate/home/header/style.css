@@ -315,7 +315,7 @@ input.image {
 	margin-right: 7px;
 }
 	
-input.image.techSupport3 { background: url(http://usnbkiqas100p/images/UL_ServiceDesk_pill.png) no-repeat scroll transparent -27px -57px; width: 119px; }
+input.image.techSupport3 { background: url(#request.serverProtocol##request.serverDomain#/images/UL_ServiceDesk_pill.png) no-repeat scroll transparent -27px -57px; width: 119px; }
 input.image.techSupport3:hover, input.image.techSupport3:active { background-position: -27px -18px;} 
 
 .title_sd {z-index: -5;

@@ -74,7 +74,7 @@ The following audit has been recently added to the IQA Audit Schedule. You are l
 
 Please View the audit details for additional information:<Br /><br />
 
-<a href="http://usnbkiqas100p/departments/snk5212/IQA/AuditDetails.cfm?ID=#ID#&Year=#Year_#">Audit Details</a>
+<a href="#request.serverProtocol##request.serverDomain#/departments/snk5212/IQA/AuditDetails.cfm?ID=#ID#&Year=#Year_#">Audit Details</a>
 	</cfmail>
 </cfif>
 

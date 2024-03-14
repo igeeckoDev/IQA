@@ -60,7 +60,7 @@ Please take a few moments to share with us things that we did well in addition t
 
 Thanks in advance for your feedback.<br><br>
 
-<a href="http://usnbkiqas100p/departments/snk5212/QE/getEmpNo.cfm?page=CARSurvey&dID=#URL.ID#">Open Survey</a><br><br>
+<a href="#request.serverProtocol##request.serverDomain#/departments/snk5212/QE/getEmpNo.cfm?page=CARSurvey&dID=#URL.ID#">Open Survey</a><br><br>
 </cfmail>
 
 <cfoutput>

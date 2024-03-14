@@ -25,13 +25,13 @@ This task has a due date of <b>#dateformat(AuditDueDate, "mm/dd/yyyy")#</b>.<br 
 
 <b>Audit Details</b>:<Br />
 Click below to open the audit: #ReviewLoc#-#ProjectNumber#-#CCN#-#AuditorLoc#-#AuditTypeID##RequestTypeID#<br />
-<a href="http://usnbkiqas100p/departments/snk5212/IQA/TechnicalAudits_getRole.cfm?page=TechnicalAudits_AuditDetails&ID=#URL.ID#&Year=#URL.Year#">Link to Audit</a><Br /><Br />
+<a href="#request.serverProtocol##request.serverDomain#/departments/snk5212/IQA/TechnicalAudits_getRole.cfm?page=TechnicalAudits_AuditDetails&ID=#URL.ID#&Year=#URL.Year#">Link to Audit</a><Br /><Br />
 
 Note: Please use Internet Explorer to follow this link. If IE is not your default browser, right-click the link above and select "Copy Hyperlink" in order to paste this link into IE.<br><br>
 
 <b>Note</b>: If you have been involved in the assigned project as a trainer, please contact the Technical Audit Manager identified below so that an alternate project can be assigned.<br /><br />
 
-<b>Training</b>: If you have not previously participated in a technical audit, you will need to complete the Oracle based course titled “Conducting Internal Technical Audits” prior to initiating your audit. For additional details on training, please reference <a href="http://dcs.ul.com/function/dcs/ControlledDocumentLibrary/00-QA-J0413/00-QA-J0413.docx">00-QA-J0413</a> Section 7.6.<br /><br />
+<b>Training</b>: If you have not previously participated in a technical audit, you will need to complete the Oracle based course titled ï¿½Conducting Internal Technical Auditsï¿½ prior to initiating your audit. For additional details on training, please reference <a href="http://dcs.ul.com/function/dcs/ControlledDocumentLibrary/00-QA-J0413/00-QA-J0413.docx">00-QA-J0413</a> Section 7.6.<br /><br />
 
 For more information about the technical audit database, audit training, OTL, or recording your hours spent, please refere to the Technical Audit Database Job Aid - <a href="http://dcs.ul.com/function/dcs/ControlledDocumentLibrary/00-QA-J0413/00-QA-J0413.docx">00-QA-J0413</a>.<br /><br />
 

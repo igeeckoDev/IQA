@@ -237,7 +237,7 @@ WHERE Auditor = '#LeadAuditor#'
 This is an email reminder to inform you that a Quality System Audit of <b>#incSubject#</b> is scheduled for #MonthAsString(Month)#.<br><br>
 
 For more information about this audit, please view the Audit Details page on the Internal Quality Audit website:<br>
-http://usnbkiqas100p/departments/snk5212/IQA/auditdetails.cfm?ID=#ID#&Year=#Year#<br><br>
+#request.serverProtocol##request.serverDomain#/departments/snk5212/IQA/auditdetails.cfm?ID=#ID#&Year=#Year#<br><br>
 
 No action is required on your part at this time unless you foresee a scheduling conflict. The assigned lead auditor will contact you with specific scope information and to arrange the dates of the audit. The lead auditor assigned to this audit is <b>#LeadAuditor#</b> should you have any further questions.<br><br>
 </cfmail>

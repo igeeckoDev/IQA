@@ -366,7 +366,7 @@ Include the number of Nonconformances and associated CAR numbers below.<br>
 * Separate each CAR/NCR/Preventive Action/SR with a comma
 <cfif Audit.Year is 2010 AND Audit.Month gte 9 OR Audit.Year gte 2011>
 <br><br>
-<a href="http://usnbkiqas100p/departments/snk5212/IQA/KB.cfm?ID=57" target="_blank">View</a> Matrix of Standard Categories for Non-Conformances and Audit Coverage since Janaury 1, 2019 <Br><br>
+<a href="#request.serverProtocol##request.serverDomain#/departments/snk5212/IQA/KB.cfm?ID=57" target="_blank">View</a> Matrix of Standard Categories for Non-Conformances and Audit Coverage since Janaury 1, 2019 <Br><br>
 </cfif><br><br>
 <table border="1">
 <tr>

@@ -74,8 +74,8 @@ The new audit number is 2014-4. The original Audit (2013-57) will remain in the 
 <u>Audit Area</u>: #Trim(Area)#<br>
 <u>Location</u>: #Trim(Officename)#<br>
 <u>Lead Auditor</u>: #LeadAuditor#<br>
-<u>Original Audit Details</u>: http://usnbkiqas100p/departments/snk5212/IQA/auditdetails.cfm?ID=57&Year=2013<br>
-<u>New Audit Details</u>: http://usnbkiqas100p/departments/snk5212/IQA/auditdetails.cfm?ID=4&Year=2014<br><br>
+<u>Original Audit Details</u>: #request.serverProtocol##request.serverDomain#/departments/snk5212/IQA/auditdetails.cfm?ID=57&Year=2013<br>
+<u>New Audit Details</u>: #request.serverProtocol##request.serverDomain#/departments/snk5212/IQA/auditdetails.cfm?ID=4&Year=2014<br><br>
 
 Please contact #Request.contacts_CancelRescheduleAudits# for any questions or issues.
 </cfmail>

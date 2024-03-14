@@ -137,7 +137,7 @@ Note - This is a one day audit<br />
 
 Please view the audit details for additional information:<Br /><br />
 
-<a href="http://usnbkiqas100p/departments/snk5212/IQA/AuditDetails.cfm?ID=#ID#&Year=#Year_#">Audit Details</a>
+<a href="#request.serverProtocol##request.serverDomain#/departments/snk5212/IQA/AuditDetails.cfm?ID=#ID#&Year=#Year_#">Audit Details</a>
 	</cfmail>
 </cfif>
 
@@ -164,7 +164,7 @@ Please view the audit details for additional information:<Br /><br />
         Start Date - #dateformat(DateCheck.StartDate, "mm/dd/yyyy")#<br />
         End Date - #dateformat(DateCheck.EndDate, "mm/dd/yyyy")#<br /><Br />
 
-        <a href="http://usnbkiqas100p/departments/snk5212/IQA/auditdetails.cfm?id=#URL.ID#&year=#URL.Year#">View</a> Audit Details<br /><br />
+        <a href="#request.serverProtocol##request.serverDomain#/departments/snk5212/IQA/auditdetails.cfm?id=#URL.ID#&year=#URL.Year#">View</a> Audit Details<br /><br />
 
         <cflock scope="session" timeout="5">
         Please contact #NewDates.ASContact# (AS Contact for this audit) for more information.<Br />

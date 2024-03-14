@@ -108,7 +108,7 @@ WHERE ID = #KBID.newid#
 
 	Knowledge Base articles can be viewed on both the IQA and CAR Process Websites.
 
-	http://usnbkiqas100p/departments/snk5212/IQA/KB.cfm?ID=#KBID.newID#
+	#request.serverProtocol##request.serverDomain#/departments/snk5212/IQA/KB.cfm?ID=#KBID.newID#
 	</cfmail>
 </cfif>
 

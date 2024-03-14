@@ -53,14 +53,14 @@ Email
 	type="html"
 	bcc="Kai.Huang@ul.com"
 	query="DistributionDetails">
-Dear CAR Owner / Owner’s Assistant:<br>
+Dear CAR Owner / Ownerï¿½s Assistant:<br>
 We would like to know how helpful we were with your CAR experience(s) so far in #Year_#.<br><br>
 
 Please take a few moments to share with us things that we did well in addition to opportunities we have to improve. The below link will take you to a brief CAR survey. If any of your comments are specific to a certain CAR Administrator/Champion, please include their name in your comments.<Br><br>
 
 Thanks in advance for your feedback.<br><br>
 
-<a href="http://usnbkiqas100p/departments/snk5212/QE/getEmpNo.cfm?page=CARSurvey&dID=#URL.ID#">Open Survey</a><br><br>
+<a href="#request.serverProtocol##request.serverDomain#/departments/snk5212/QE/getEmpNo.cfm?page=CARSurvey&dID=#URL.ID#">Open Survey</a><br><br>
 </cfmail>
 
 <cfoutput>

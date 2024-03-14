@@ -289,11 +289,11 @@ dt.getElementsByTagName('span')[0].innerHTML
 <dt onclick="tog(this)"><span><a>More [+]</a></span></dt>
 <dd>
 	<ul class=arrow3>
-		<li class=arrow3>A CAR owner may assign an Owner’s Assistant
+		<li class=arrow3>A CAR owner may assign an Ownerï¿½s Assistant
 			<ul class=arrow3>
-				<li class=arrow3>A person designated by the CAR Owner to act on a CAR on the CAR Owner’s behalf.</li>
-				<li class=arrow3>The Owner’s Assistant is given the same edit abilities for the CAR as the CAR Owner (able to input analysis, create milestones, submit implementation, request extensions, etc.).</li>
-				<li class=arrow3>The CAR Owner continues to remain responsible for the CAR through closure even if an Owner’s Assistant has been designated.</li>
+				<li class=arrow3>A person designated by the CAR Owner to act on a CAR on the CAR Ownerï¿½s behalf.</li>
+				<li class=arrow3>The Ownerï¿½s Assistant is given the same edit abilities for the CAR as the CAR Owner (able to input analysis, create milestones, submit implementation, request extensions, etc.).</li>
+				<li class=arrow3>The CAR Owner continues to remain responsible for the CAR through closure even if an Ownerï¿½s Assistant has been designated.</li>
 			</ul>
 		</li>
 	</ul>
@@ -303,9 +303,9 @@ dt.getElementsByTagName('span')[0].innerHTML
 <b>CAR Owner Assistance</b> - <a href="CAR Owner Resources.pptx" target=_blank>View presentation for the below topics</a>
 <ul class=arrow3>
 	<li class=arrow3>CAR Owner resources</li>
-	<li class=arrow3>Assigning an Owner’s Assistant</li>
+	<li class=arrow3>Assigning an Ownerï¿½s Assistant</li>
 	<li class=arrow3>Attaching documents in a CAR</li>
-	<li class=arrow3>CAR Database – how to access GCAR; how to search for your CARs</li>
+	<li class=arrow3>CAR Database ï¿½ how to access GCAR; how to search for your CARs</li>
 </ul>
 
 <dl class="togList">
@@ -314,22 +314,22 @@ The CAR owner fixes the problem found in the nonconformance.  Analysis, root cau
 <dt onclick="tog(this)"><span><a>More [+]</a></span></dt>
 <dd>
 	<ol class=arrow3 type=1>
-		<li class=arrow3>Fixes the problem that is identified in the “Objective Evidence”.  This may mean updating a datasheet, publishing a document in Document Control, updating an employee’s qualifications in the Technical Competency Database, etc.
+		<li class=arrow3>Fixes the problem that is identified in the ï¿½Objective Evidenceï¿½.  This may mean updating a datasheet, publishing a document in Document Control, updating an employeeï¿½s qualifications in the Technical Competency Database, etc.
 			<ol class=arrow3 type=a>
 				<li class=arrow3>Within Observation CARs, the owner is to only fix the problem noted.</li>
 				<li class=arrow3>Additional enhancements are encouraged, but must be completed outside of the CAR database.</li>
 			</ol>
 		</li>
-		<li class=arrow3>Completes the “Corrective Action Plan” by detailing how they will fix the “Objective Evidence”.</li>
-		<li class=arrow3>Creates milestones to carry out the “Corrective Action Plan”.</li>
+		<li class=arrow3>Completes the ï¿½Corrective Action Planï¿½ by detailing how they will fix the ï¿½Objective Evidenceï¿½.</li>
+		<li class=arrow3>Creates milestones to carry out the ï¿½Corrective Action Planï¿½.</li>
 		<li class=arrow3>The following are NOT required for Observation CARs:
 			<ul class=arrow3>
-				<li class=arrow3>Analysis – Though not required, helpful information may be entered in the analysis section.  Otherwise, enter “Not Required” or similar wording.</li>
-				<li class=arrow3>Root Cause statement – Enter “Not Applicable” or similar wording.</li>
-				<li class=arrow3>Scope of Nonconformance – Either enter the objective evidence for the nonconformance or enter “Not Applicable” or similar wording.
+				<li class=arrow3>Analysis ï¿½ Though not required, helpful information may be entered in the analysis section.  Otherwise, enter ï¿½Not Requiredï¿½ or similar wording.</li>
+				<li class=arrow3>Root Cause statement ï¿½ Enter ï¿½Not Applicableï¿½ or similar wording.</li>
+				<li class=arrow3>Scope of Nonconformance ï¿½ Either enter the objective evidence for the nonconformance or enter ï¿½Not Applicableï¿½ or similar wording.
 					<ul class=arrow3>
 						<li class=arrow3>Containment milestone is not required.</li>
-						<li class=arrow3>Owner’s verification of effectiveness milestone is not required.</li>
+						<li class=arrow3>Ownerï¿½s verification of effectiveness milestone is not required.</li>
 					</ul>
 				</li>
 			</ul>
@@ -339,7 +339,7 @@ The CAR owner fixes the problem found in the nonconformance.  Analysis, root cau
 </dl>
 
 <dl class="togList">
-<b>Finding CARs</b> – Finding CARs require that all sections of the CAR are completed, including:<br>
+<b>Finding CARs</b> ï¿½ Finding CARs require that all sections of the CAR are completed, including:<br>
 <ul class=arrow3>
 	<li class=arrow3>Analysis [<a href="FAQ_New.cfm?#18">View</a>]</li>
 	<li class=arrow3>Root Cause statement [<a href="FAQ_New.cfm?#19">View</a>]</li>
@@ -361,11 +361,11 @@ The CAR owner fixes the problem found in the nonconformance.  Analysis, root cau
 				<li class=arrow3>Containment milestone
 					<ul class=arrow3>
 						<li class=arrow3>Containment usually is the first milestone.</li>
-						<li class=arrow3>It is the immediate short term action that “stops the bleeding” and contains the problem and/or captures impacted records until the permanent fix is implemented.</li>
+						<li class=arrow3>It is the immediate short term action that ï¿½stops the bleedingï¿½ and contains the problem and/or captures impacted records until the permanent fix is implemented.</li>
 						<li class=arrow3>Containment is usually required.  However, if containment is not required, explain the rationale in the Corrective Action Plan or Analysis section of the CAR.</li>
 					</ul>
 				</li>
-				<li class=arrow3>Owner’s Verification of Effectiveness milestone
+				<li class=arrow3>Ownerï¿½s Verification of Effectiveness milestone
 					<ul class=arrow3>
 						<li class=arrow3>Owners must verify the effectiveness of the implemented corrective actions before CAR is closed.</li>
 						<li class=arrow3>They must ensure that the corrective action worked to prevent the problem from happening again.</li>
@@ -616,12 +616,12 @@ WHERE ID = 20
 
 <cfoutput>
 <img src="FAQImages\Milestones.png" border="0" width="#SubTopicWidth#"><br>
-</cfoutput>
+
 
 Please follow the link below:<br><br>
 
-<A href="http://usnbkiqas100p/departments/snk5212/QE/FAQ/Creates Milestones.pptx" target="_blank">http://usnbkiqas100p/departments/snk5212/QE/FAQ/Creates Milestones.pptx</a><br><Br>
-
+<A href="#request.serverProtocol##request.serverDomain#/departments/snk5212/QE/FAQ/Creates Milestones.pptx" target="_blank">#request.serverProtocol##request.serverDomain#/departments/snk5212/QE/FAQ/Creates Milestones.pptx</a><br><Br>
+</cfoutput>
 <!--- Navigation --->
 <Table width="800">
 <tr>

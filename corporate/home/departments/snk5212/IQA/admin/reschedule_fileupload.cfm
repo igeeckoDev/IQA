@@ -61,7 +61,7 @@
             type="html">
             An Audit Reschedule Request is awaiting your approval. Please log in to IQA and view "Audit Reschedules - View Requests"<br><br>
             
-            <a href="http://usnbkiqas100p/departments/snk5212/IQA/admin/global_login.cfm">IQA Login Page</a>
+            <a href="#request.serverProtocol##request.serverDomain#/departments/snk5212/IQA/admin/global_login.cfm">IQA Login Page</a>
         </cfmail>
       
       <cfset message = "Reschedule Request has been completed. Please contact Denise for more information.">

@@ -42,7 +42,7 @@ AND Year_ = #URL.Year#
         Audit: #varAuditIdentifier#<br /><br />
 
 		This is notification that an auditor has been assigned for this audit: <br />
-        Click here to open the audit: <a href="http://usnbkiqas100p/departments/snk5212/IQA/TechnicalAudits_getRole.cfm?page=TechnicalAudits_AuditDetails&ID=#URL.ID#&Year=#URL.Year#">Link to Audit</a><br /><br />
+        Click here to open the audit: <a href="#request.serverProtocol##request.serverDomain#/departments/snk5212/IQA/TechnicalAudits_getRole.cfm?page=TechnicalAudits_AuditDetails&ID=#URL.ID#&Year=#URL.Year#">Link to Audit</a><br /><br />
 
 		Note: Please use Internet Explorer to follow this link. If IE is not your default browser, right-click the link above and select "Copy Hyperlink" in order to paste this link into IE.<br><br>
 

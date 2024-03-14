@@ -78,7 +78,7 @@ Preparation for 2017 Corporate Internal Quality Audits is in its initial stages.
 At this time, I am requesting your input for the 2017 audit year. This information will be included in our audit plans.<br><br>
 
 Please follow the link below to provide information for UL Sites, Programs/Schemes, Certification Bodies, and Processes:<br>
-<a href="http://usnbkiqas100p/departments/snk5212/IQA/Planning/getEmpNo.cfm?UserID=Quality">http://usnbkiqas100p/departments/snk5212/IQA/Planning/getEmpNo.cfm?UserID=Quality</a><br><br>
+<a href="#request.serverProtocol##request.serverDomain#/departments/snk5212/IQA/Planning/getEmpNo.cfm?UserID=Quality">#request.serverProtocol##request.serverDomain#/departments/snk5212/IQA/Planning/getEmpNo.cfm?UserID=Quality</a><br><br>
 
 <u>Note</u> - You can reuse the link above to add information for multiple Sites, Processes, Programs/Schemes, and Certification Bodies.<br><br>
 
@@ -87,7 +87,7 @@ If you have additional audit requests specific to Certification Bodies, Certific
 If someone will be providing this information on your behalf, forward this email to them including the link above.<br><br>
 
 To view the distribution lists, please use the following link:<br />
-<a href="http://usnbkiqas100p/departments/snk5212/IQA/Planning/Distribution_2017.cfm?Type=Quality">http://usnbkiqas100p/departments/snk5212/IQA/Planning/Distribution_2017.cfm?Type=Quality</a><br /><br />
+<a href="#request.serverProtocol##request.serverDomain#/departments/snk5212/IQA/Planning/Distribution_2017.cfm?Type=Quality">#request.serverProtocol##request.serverDomain#/departments/snk5212/IQA/Planning/Distribution_2017.cfm?Type=Quality</a><br /><br />
 
 You can add information for any of the categories listed in the link above by using the "Open Blank Survey" links. This includes Processes, Programs, as well as any UL location.<br><br>
 

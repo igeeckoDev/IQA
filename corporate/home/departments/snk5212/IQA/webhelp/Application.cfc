@@ -1,7 +1,7 @@
 <cfcomponent output="false" extends="IQA.Application">
 <cffunction name="OnRequestStart" access="public" returntype="boolean" output="false">
 	<cfargument name="Page" type="string" required="true">
-
+    <cfinclude template="../../../environment.cfm">
 	<cfif SUPER.OnRequestStart( ARGUMENTS.Page )>
     <!--- Store the sub root directory folder. --->
         <cfset REQUEST.SubDirectory = GetDirectoryFromPath(GetCurrentTemplatePath()) />

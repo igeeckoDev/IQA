@@ -442,10 +442,10 @@ $(document).ready(function() {
 		</td>
 	</tr>
 	</table>
-
+	<cfoutput>
 	<br>
-	View: <a href="http://usnbkiqas100p/departments/snk5212/IQA/AuditSurvey_Metrics.cfm?Year=All" target="_blank">IQA Customer Statisfaction Survey Details</a><br>
-	View: <a href="http://usnbkiqas100p/departments/snk5212/IQA/prog_plan.cfm" target="_blank"> Scheme Coverage Details</a><br><br>
+	View: <a href="#request.serverProtocol##request.serverDomain#/departments/snk5212/IQA/AuditSurvey_Metrics.cfm?Year=All" target="_blank">IQA Customer Statisfaction Survey Details</a><br>
+	View: <a href="#request.serverProtocol##request.serverDomain#/departments/snk5212/IQA/prog_plan.cfm" target="_blank"> Scheme Coverage Details</a><br><br>
 
 	<p class="blog-date">Corrective Action Process</p>
 	<table>
@@ -466,9 +466,9 @@ $(document).ready(function() {
 	</table>
 
 	<br>
-	View: <a href="http://usnbkiqas100p/departments/snk5212/IQA/CARSurvey_Metrics.cfm?Year=All" target="_blank">Corrective Action Customer Survey Details</a><br>
-	View: <a href="http://usnbkiqas100p/departments/snk5212/IQA/CARSurvey_Metrics.cfm?Year=All" target="_blank">GCAR Metrics Data</a><br><Br>
-
+	View: <a href="#request.serverProtocol##request.serverDomain#/departments/snk5212/IQA/CARSurvey_Metrics.cfm?Year=All" target="_blank">Corrective Action Customer Survey Details</a><br>
+	View: <a href="#request.serverProtocol##request.serverDomain#/departments/snk5212/IQA/CARSurvey_Metrics.cfm?Year=All" target="_blank">GCAR Metrics Data</a><br><Br>
+</cfoutput>
 	<p class="blog-date">DAP/CTF/External CBTL Audit</p>
 	<table>
 	<tr>

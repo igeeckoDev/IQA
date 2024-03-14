@@ -111,7 +111,7 @@
     #Dump3#<br /><br />
 
     Please follow the link below to view this FAQ Item:<br />
-    http://usnbkiqas100p/departments/snk5212/QE/FAQ.cfm###ID#
+    #request.serverProtocol##request.serverDomain#/departments/snk5212/QE/FAQ.cfm###ID#
         </cfmail>
 	</cfif>
 

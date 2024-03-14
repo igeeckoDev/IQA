@@ -267,7 +267,9 @@
 <td>1</td>
 <td>No</td>
 <td nowrap></td>
-<td nowrap>Chelmsford is part of Melville's NRTL Program under OSHA's Satellite Notification and Acceptance Program (SNAP).  SNAP allows NRTLs to use facilities referred to as “SNAP sites,” which they control and audit, in order to perform particular functions necessary in the NRTL’s testing and certification operations. http://www.osha.gov/dts/otpca/nrtl/snap.html</td>
+<td nowrap>Chelmsford is part of Melville's NRTL Program under OSHA's Satellite Notification and Acceptance Program (SNAP).  SNAP allows NRTLs to use facilities referred to as ï¿½SNAP sites,ï¿½ which they control and audit, in order to perform particular functions necessary in the NRTLï¿½s testing and certification operations. 
+
+http://www.osha.gov/dts/otpca/nrtl/snap.html</td>
 <td nowrap>Record added 12/16/2010 by 10813</td>
 </tr> 
  
@@ -277,7 +279,7 @@
 <td>Certification</td>
 <td>UL Mark Programs</td>
 <td>Active</td>
-<td nowrap>C-UL Mark – CANADA,<br>UL Food Equipment Safety Program,<br>UL Mark for Classification,<br>UL Mark for Energy Efficiency of Electrical Products,<br>UL Mark for Listing,<br>UL Mark for Recognition<br></td>
+<td nowrap>C-UL Mark ï¿½ CANADA,<br>UL Food Equipment Safety Program,<br>UL Mark for Classification,<br>UL Mark for Energy Efficiency of Electrical Products,<br>UL Mark for Listing,<br>UL Mark for Recognition<br></td>
 <td>No</td>
 <td>1</td>
 <td>No</td>
@@ -326,7 +328,8 @@
 <td>No</td>
 <td>2</td>
 <td>Yes</td>
-<td nowrap>Yes Details: Develop and maintain separate laboratory test procedures for each accredited ENERGY STAR test method. Evidence that laboratory employees participate in and regularly pass ethics and compliance audits; </td>
+<td nowrap>Yes 
+Details: Develop and maintain separate laboratory test procedures for each accredited ENERGY STAR test method. Evidence that laboratory employees participate in and regularly pass ethics and compliance audits; </td>
 <td nowrap></td>
 <td nowrap>Record added 03/05/2012 by 03837</td>
 </tr> 
@@ -365,7 +368,7 @@
 <td>DAkkS</td>
 <td>DEWI-OCC (Cuxhaven, Germany)</td>
 <td>Certification</td>
-<td>DIN EN 45011:1998 and IEC 61400 – 22:2010</td>
+<td>DIN EN 45011:1998 and IEC 61400 ï¿½ 22:2010</td>
 <td>Active</td>
 <td nowrap>Onshore and offshore wind turbines and their components.</td>
 <td>Yes</td>
@@ -416,7 +419,9 @@
 <td>No</td>
 <td>2</td>
 <td>Yes</td>
-<td nowrap>Develop and maintain separate laboratory test procedures for each accredited ENERGY STAR test method.Evidence that laboratory employees participate in and regularly pass ethics and compliance audits; </td>
+<td nowrap>Develop and maintain separate laboratory test procedures for each accredited ENERGY STAR test method.
+
+Evidence that laboratory employees participate in and regularly pass ethics and compliance audits; </td>
 <td nowrap></td>
 <td nowrap>Record added 03/01/2012 by 03837</td>
 </tr> 
@@ -577,7 +582,7 @@
 <td>Certification</td>
 <td>UL Mark Programs</td>
 <td>Active</td>
-<td nowrap>C-UL Mark – CANADA,<br>UL Food Equipment Safety Program,<br>UL Mark for Classification,<br>UL Mark for Energy Efficiency of Electrical Products,<br>UL Mark for Listing,<br>UL Mark for Recognition,<br>UL Water Systems Certification Program,<br></td>
+<td nowrap>C-UL Mark ï¿½ CANADA,<br>UL Food Equipment Safety Program,<br>UL Mark for Classification,<br>UL Mark for Energy Efficiency of Electrical Products,<br>UL Mark for Listing,<br>UL Mark for Recognition,<br>UL Water Systems Certification Program,<br></td>
 <td>No</td>
 <td>1</td>
 <td>No</td>
@@ -641,7 +646,10 @@
 <td>No</td>
 <td>3</td>
 <td>Yes</td>
-<td nowrap>Exhibits List: https://fjallfoss.fcc.gov/oetcf/eas/reports/ViewExhibitReport.cfm?mode=Exhibits&calledFromFrame=N&RequestTimeout=500&application_id=91044Roles and Responsibilities:http://fjallfoss.fcc.gov/kdb/GetAttachment.html?id=32928</td>
+<td nowrap>Exhibits List: https://fjallfoss.fcc.gov/oetcf/eas/reports/ViewExhibitReport.cfm?mode=Exhibits&calledFromFrame=N&RequestTimeout=500&application_id=91044
+
+Roles and Responsibilities:
+http://fjallfoss.fcc.gov/kdb/GetAttachment.html?id=32928</td>
 <td nowrap></td>
 <td nowrap>Record added 11/17/2010 by 81009</td>
 </tr> 
@@ -748,7 +756,7 @@
 <td>Yes</td>
 <td nowrap>Renewal requires submitting a test report.</td>
 <td nowrap>SCAQMD Rule 1111 Protocol (NOx emissions from boilers and heaters)</td>
-<td nowrap>Record edited 11/17/2010 by 81009 | Edit Notes: Through the Laboratory Approval Program (LAP) the AQMD approves independent laboratories or source testing firms that collect and analyze emission samples for reporting to the AQMD.  Test facilities are approved on a method-by-method basis.  Approval means that the test facility's management, personnel, policies, facilities, methods, equipment, documentation, quality assurance, and audit performance have been evaluated and found to meet AQMD criteria.  However, approval is not an endorsement by the AQMD or a product certification.  || Record added 11/17/2010 by 81009</td>
+<td nowrap>Record edited 11/17/2010 by 81009 | Edit Notes: Through the Laboratory Approval Program (LAP) the AQMD approves independent laboratories or source testing firms that collect and analyze emission samples for reporting to the AQMD.ï¿½ Test facilities are approved on a method-by-method basis.ï¿½ Approval means that the test facility's management, personnel, policies, facilities, methods, equipment, documentation, quality assurance, and audit performance have been evaluated and found to meet AQMD criteria.ï¿½ However, approval is not an endorsement by the AQMD or a product certification.ï¿½ || Record added 11/17/2010 by 81009</td>
 </tr> 
  
 <tr valign='top' align='left' style='font-family:Arial, Helvetica, sans-serif; font-size:12px'>
@@ -866,7 +874,8 @@
 <td>No</td>
 <td>3</td>
 <td>Yes</td>
-<td nowrap>MIL-PRF-85045F: PERFORMANCE SPECIFICATIONGENERAL SPECIFICATION FOR CABLES, FIBER OPTICS, (METRIC)</td>
+<td nowrap>MIL-PRF-85045F: PERFORMANCE SPECIFICATION
+GENERAL SPECIFICATION FOR CABLES, FIBER OPTICS, (METRIC)</td>
 <td nowrap>Commercial laboratories receive a DSCC-VQ letter of suitability to test to the military specifications indicated.</td>
 <td nowrap>Record added 11/17/2010 by 81009</td>
 </tr> 
@@ -882,7 +891,7 @@
 <td>3</td>
 <td>Yes</td>
 <td nowrap>GR-63 (Sections 4.1, 4.2, 4.3, 4.4.5, 4.6, and 4.7), GR-487 (Sections 3.32 and 3.33), GR-1089 (Sections 2, 3, 7, 8, 9 and 10 (except Sec. 9.12)), VZ.TPR.9208 Thermal Management Requirements for Improved Energy Efficiency of Telecommunications Equipment</td>
-<td nowrap>Under the Verizon ITL NEBS Testing Certification Program (NEBS-TCP) Verizon will accept NEBS testing reports only from laboratories that have qualified under Verizon's certification standards.  Verizon selected ITLs based on their interest in participating in the program, their demonstrated competence in performing such testing, their ongoing training programs and their certification in nationally recognized quality programs for laboratories.  Each lab undergoes an initial quality audit and subsequent periodic audits to assure ongoing quality.  </td>
+<td nowrap>Under the Verizon ITL NEBS Testing Certification Program (NEBS-TCP) Verizon will accept NEBS testing reports only from laboratories that have qualified under Verizon's certification standards.  Verizon selected ITLs based on their interest in participating in the program, their demonstrated competence in performing such testing, their ongoing training programs and their certification in nationally recognized quality programs for laboratories.ï¿½ï¿½Each lab undergoes an initial quality audit and subsequent periodic audits to assure ongoing quality.  </td>
 <td nowrap>Record added 11/17/2010 by 81009</td>
 </tr> 
  
@@ -1046,7 +1055,13 @@
 <td>No</td>
 <td>3</td>
 <td>Yes</td>
-<td nowrap>GR-63 (Sections 2, 3, 4.1, 4.3, 4.4, 4.5, 4.6, and 4.7) GR-487 (Sections 3.1 - 3.4, 3.6.4 - 3.6.6, 3.7 - 3.18, 3.20 - 3.31, 3.34.1 - 3.34.2, 3.35.1, and 3.35.3 - 3.35.6) GR-1089 (Sections 2, 3, 4, 5, 6, 7, 8, 9 and 10) VZ.TPR.9205 Energy Efficiency Requirements for Telecommunications EquipmentVZ.TPR.9208 Thermal Management Requirements for Improved Energy Efficiency of Telecommunications Equipment</td>
+<td nowrap>GR-63 (Sections 2, 3, 4.1, 4.3, 4.4, 4.5, 4.6, and 4.7) 
+GR-487 (Sections 3.1 - 3.4, 3.6.4 - 3.6.6, 3.7 - 3.18, 3.20 - 3.31, 3.34.1 - 3.34.2, 3.35.1, and 3.35.3 - 3.35.6) 
+GR-1089 (Sections 2, 3, 4, 5, 6, 7, 8, 9 and 10) 
+VZ.TPR.9205 Energy Efficiency Requirements for Telecommunications Equipment
+
+VZ.TPR.9208 Thermal Management Requirements for Improved Energy Efficiency of Telecommunications Equipment
+</td>
 <td nowrap>Under the Verizon ITL NEBS Testing Certification Program (NEBS-TCP) Verizon will accept NEBS testing reports only from laboratories that have qualified under Verizon's certification standards. Verizon selected ITLs based on their interest in participating in the program, their demonstrated competence in performing such testing, their ongoing training programs and their certification in nationally recognized quality programs for laboratories.  Each lab undergoes an initial quality audit and subsequent periodic audits to assure ongoing quality. </td>
 <td nowrap>Record edited 11/22/2010 by 83049 | Edit Notes: Update of local audit information. || Record edited 11/22/2010 by 83049 | Edit Notes: Updated additional notes || Record added 11/19/2010 by 83049</td>
 </tr> 
@@ -1544,7 +1559,9 @@ www.ukas.org</td>
 <td>No</td>
 <td>1</td>
 <td>Yes</td>
-<td nowrap>Witness audits per each product categorySpecific policies, procedures and guidelines to be followed. They are attached  in the following link: http://www.oaa.org.ar/200504/index.html</td>
+<td nowrap>Witness audits per each product category
+Specific policies, procedures and guidelines to be followed. They are attached  in the following link: http://www.oaa.org.ar/200504/index.html
+</td>
 <td nowrap></td>
 <td nowrap>Record edited 11/16/2010 by 08243 | Edit Notes: The accreditation audit is performed once a year by accreditor's staff, not by local quality staff.  || Record added 11/16/2010 by 08243</td>
 </tr> 
@@ -1754,7 +1771,11 @@ www.ukas.org</td>
 <td>No</td>
 <td>1</td>
 <td>Yes</td>
-<td nowrap>MHRA Guidance Note 6 and Global Harmonisation TaskForce Guidelines SG (99)28Medical Devices Directive (MDD)Invitro Diagnostic Devices Directive (IVDD) </td>
+<td nowrap>MHRA Guidance Note 6 and Global Harmonisation Task
+Force Guidelines SG (99)28
+Medical Devices Directive (MDD)
+Invitro Diagnostic Devices Directive (IVDD) 
+</td>
 <td nowrap></td>
 <td nowrap>Record edited 11/17/2010 by 04323 | Edit Notes: Updated Accreditation type. || Record edited 11/17/2010 by 04323 | Edit Notes: Details of Directives added. || Record added 11/17/2010 by 04323</td>
 </tr> 
@@ -1784,7 +1805,9 @@ www.ukas.org</td>
 <td>No</td>
 <td>3</td>
 <td>Yes</td>
-<td nowrap>CAN-P-3G (ISO/IEC Guide 65:1996)CAN-P-1500MIAF GD 5:2006</td>
+<td nowrap>CAN-P-3G (ISO/IEC Guide 65:1996)
+CAN-P-1500M
+IAF GD 5:2006</td>
 <td nowrap></td>
 <td nowrap>Record added 11/17/2010 by 04323</td>
 </tr> 
@@ -1799,7 +1822,12 @@ www.ukas.org</td>
 <td>No</td>
 <td>1</td>
 <td>Yes</td>
-<td nowrap>Low Voltage Directive (LVD)UKAS P16 Assessment of Approved and Notified BodiesGuidelines for the Appointment of Notified BodiesURN00/800</td>
+<td nowrap>Low Voltage Directive (LVD)
+UKAS P16 Assessment of Approved and Notified Bodies
+Guidelines for the Appointment of Notified Bodies
+URN00/800
+
+</td>
 <td nowrap></td>
 <td nowrap>Record added 11/17/2010 by 04323</td>
 </tr> 
@@ -1844,7 +1872,8 @@ www.ukas.org</td>
 <td>No</td>
 <td>1</td>
 <td>Yes</td>
-<td nowrap>Minor addtional thermcouple preperation (aligns with UL) and use of Mark (procedure in place but UKAS mark is rarely if ever used)</td>
+<td nowrap>Minor addtional thermcouple preperation (aligns with UL) and use of Mark (procedure in place but UKAS mark is rarely if ever 
+used)</td>
 <td nowrap></td>
 <td nowrap>Record added 11/17/2010 by 04323</td>
 </tr> 
@@ -1889,7 +1918,9 @@ www.ukas.org</td>
 <td>No</td>
 <td>3</td>
 <td>Yes</td>
-<td nowrap>CAN-P-3G (ISO/IEC Guide 65:1996)CAN-P-1500MIAF GD 5:2006</td>
+<td nowrap>CAN-P-3G (ISO/IEC Guide 65:1996)
+CAN-P-1500M
+IAF GD 5:2006</td>
 <td nowrap></td>
 <td nowrap>Record added 11/17/2010 by 04323</td>
 </tr> 
@@ -1904,7 +1935,9 @@ www.ukas.org</td>
 <td>No</td>
 <td>1</td>
 <td>Yes</td>
-<td nowrap>EN 45011Construction Products DirectiveCPD Guidance Papers</td>
+<td nowrap>EN 45011
+Construction Products Directive
+CPD Guidance Papers</td>
 <td nowrap></td>
 <td nowrap>Record edited 11/17/2010 by 04323 | Edit Notes: Scope updated || Record added 11/17/2010 by 04323</td>
 </tr> 
@@ -1919,7 +1952,9 @@ www.ukas.org</td>
 <td>No</td>
 <td>1</td>
 <td>Yes</td>
-<td nowrap>Personal Protective Equipment Directive EN45011PPE Guidance Papers</td>
+<td nowrap>Personal Protective Equipment Directive 
+EN45011
+PPE Guidance Papers</td>
 <td nowrap></td>
 <td nowrap>Record edited 11/17/2010 by 04323 | Edit Notes: Scope updated || Record added 11/17/2010 by 04323</td>
 </tr> 
@@ -2069,7 +2104,8 @@ www.ukas.org</td>
 <td>Yes</td>
 <td>3</td>
 <td>Yes</td>
-<td nowrap>1) http://www.iecee.org/Operational_documents/od-cb_index.html2) http://www.iecee.org/ctl/operational/Operational_procedures.htm</td>
+<td nowrap>1) http://www.iecee.org/Operational_documents/od-cb_index.html
+2) http://www.iecee.org/ctl/operational/Operational_procedures.htm</td>
 <td nowrap></td>
 <td nowrap>Record added 12/06/2010 by 90259</td>
 </tr> 
@@ -2129,7 +2165,8 @@ www.ukas.org</td>
 <td>Yes</td>
 <td>3</td>
 <td>Yes</td>
-<td nowrap>http://www.iecee.org/Operational_documents/od-cb_index.html</td>
+<td nowrap>http://www.iecee.org/Operational_documents/od-cb_index.html
+</td>
 <td nowrap></td>
 <td nowrap>Record added 12/06/2010 by 90259</td>
 </tr> 
@@ -2264,7 +2301,12 @@ www.ukas.org</td>
 <td>Yes</td>
 <td>1</td>
 <td>Yes</td>
-<td nowrap>- Tests must be considered measurement uncertainties.- We must pass all the proficiency tests in the accreditation scope.- Quality Manual needs to be 100% fulfil ISO 17025 requirements.  QM must not be written too general, it must be written specifically and detailed enough to reflect our actual practice. - We need to have approved signatories to sign on the test report.- Our electronic data recording is not accepted.  Need to use data recording in hard copy.- Our global quality policy is not accepted.  Need to develop one to meet the requirements documented in ISO 17025 Clause 4.2.2.</td>
+<td nowrap>- Tests must be considered measurement uncertainties.
+- We must pass all the proficiency tests in the accreditation scope.
+- Quality Manual needs to be 100% fulfil ISO 17025 requirements.  QM must not be written too general, it must be written specifically and detailed enough to reflect our actual practice. 
+- We need to have approved signatories to sign on the test report.
+- Our electronic data recording is not accepted.  Need to use data recording in hard copy.
+- Our global quality policy is not accepted.  Need to develop one to meet the requirements documented in ISO 17025 Clause 4.2.2.</td>
 <td nowrap></td>
 <td nowrap>Record added 01/06/2011 by 06301</td>
 </tr> 
@@ -2624,7 +2666,8 @@ www.ukas.org</td>
 <td>Yes</td>
 <td>3</td>
 <td>Yes</td>
-<td nowrap>72/245/CEE as last amended by 2006/28/CEEECE Reglation R10 Version 02</td>
+<td nowrap>72/245/CEE as last amended by 2006/28/CEE
+ECE Reglation R10 Version 02</td>
 <td nowrap></td>
 <td nowrap>Record added 11/24/2010 by 50358</td>
 </tr> 
@@ -2714,7 +2757,8 @@ www.ukas.org</td>
 <td>Yes</td>
 <td>3</td>
 <td>Yes</td>
-<td nowrap>72/245/EEC, 2004/104/EC, 2005/83/EC, 2006/28/EC, 97/24/EC Chapter 8, 95/56/EC,ECE Reg.10.02,10.03,97.1, 116.00 </td>
+<td nowrap>72/245/EEC, 2004/104/EC, 2005/83/EC, 2006/28/EC, 97/24/EC Chapter 8, 95/56/EC,
+ECE Reg.10.02,10.03,97.1, 116.00 </td>
 <td nowrap></td>
 <td nowrap>Record added 11/23/2010 by 50358</td>
 </tr> 
@@ -2834,7 +2878,8 @@ www.ukas.org</td>
 <td>Yes</td>
 <td>3</td>
 <td>Yes</td>
-<td nowrap>72/245/EEC, 2009/19/EC, 97/24/EC Chapter 8, Reg. 10.03</td>
+<td nowrap>72/245/EEC, 2009/19/EC, 97/24/EC Chapter 8, 
+Reg. 10.03</td>
 <td nowrap></td>
 <td nowrap>Record added 11/23/2010 by 50358</td>
 </tr> 
@@ -3464,7 +3509,11 @@ www.ukas.org</td>
 <td>No</td>
 <td>1</td>
 <td>Yes</td>
-<td nowrap>Audit covers additional requirements to the following:1. CAN-P-3G (similar to ISO Guide 65) & IAF Guidance document2. CAN-P-1500M3. SCC CB Accreditation Agreement</td>
+<td nowrap>Audit covers additional requirements to the following:
+1. CAN-P-3G (similar to ISO Guide 65) & IAF Guidance document
+2. CAN-P-1500M
+3. SCC CB Accreditation Agreement
+</td>
 <td nowrap></td>
 <td nowrap>Record added 01/04/2011 by 91629</td>
 </tr> 
@@ -3479,7 +3528,8 @@ www.ukas.org</td>
 <td>No</td>
 <td>2</td>
 <td>Yes</td>
-<td nowrap>CAN-P-4E (similar to ISO 17025)PALCAN Handbook (CAN-P-1570) </td>
+<td nowrap>CAN-P-4E (similar to ISO 17025)
+PALCAN Handbook (CAN-P-1570) </td>
 <td nowrap></td>
 <td nowrap>Record added 01/04/2011 by 91629</td>
 </tr> 
@@ -3494,7 +3544,9 @@ www.ukas.org</td>
 <td>No</td>
 <td>1</td>
 <td>Yes</td>
-<td nowrap>1. CAN-P-8 (ISO/IEC 17020:1998)2. IAF-ILAC-A4 2004 GD170203. CAN-P-1608</td>
+<td nowrap>1. CAN-P-8 (ISO/IEC 17020:1998)
+2. IAF-ILAC-A4 2004 GD17020
+3. CAN-P-1608</td>
 <td nowrap></td>
 <td nowrap>Record added 01/04/2011 by 91629</td>
 </tr> 

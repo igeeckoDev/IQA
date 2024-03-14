@@ -411,11 +411,11 @@ $(document).ready(function() {
 	</tr>
 	<tr>
 		<td>
-		<a href="http://usnbkiqas100p/departments/snk5212/IQA/Admin/AuditSurvey_Metrics.cfm?Year=All"> Interal Quality Audit Customer Survey Results Details</a>
+		<a href="#request.serverProtocol##request.serverDomain#/departments/snk5212/IQA/Admin/AuditSurvey_Metrics.cfm?Year=All"> Interal Quality Audit Customer Survey Results Details</a>
 		</td>
 		
 		<td>
-		<a href="http://usnbkiqas100p/departments/snk5212/IQA/prog_plan.cfm"> Scheme Coverage Details</a>
+		<a href="#request.serverProtocol##request.serverDomain#/departments/snk5212/IQA/prog_plan.cfm"> Scheme Coverage Details</a>
 		</td>
 	</tr>
 	

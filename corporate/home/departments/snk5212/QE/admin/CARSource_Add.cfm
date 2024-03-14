@@ -99,7 +99,7 @@ A new CAR Source <b>(#CARSource#)</b> has been added to FAQ 12/CAR Source Table.
 #D2#
 
 View CAR Source Table<Br>
-http://usnbkiqas100p/departments/snk5212/QE/FAQ.cfm###csID#
+#request.serverProtocol##request.serverDomain#/departments/snk5212/QE/FAQ.cfm###csID#
 	</cfmail>
 <!--- /// --->
 

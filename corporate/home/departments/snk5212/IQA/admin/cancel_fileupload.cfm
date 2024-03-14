@@ -59,7 +59,7 @@
             type="html">
             An Audit Cancellation Request is awaiting your approval. Please log in to IQA and view "Audit Cancellations - View Requests"<br><br>
             
-            <a href="http://usnbkiqas100p/departments/snk5212/IQA/admin/global_login.cfm">IQA Login Page</a>
+            <a href="#request.serverProtocol##request.serverDomain#/departments/snk5212/IQA/admin/global_login.cfm">IQA Login Page</a>
         </cfmail>
       
       <cfset message = "Cancellation Request has been sent. Please contact Denise for more information.">

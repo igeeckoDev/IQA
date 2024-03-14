@@ -383,7 +383,7 @@ WHERE
                     This email is notification that the auditor has posted an audit without nonconformances or "Cannot be determined" items identified. This audit is now ready to close.<br /><br />
 
                     Click below to open the audit:<br />
-                    <a href="http://usnbkiqas100p/departments/snk5212/IQA/TechnicalAudits_getRole.cfm?page=TechnicalAudits_AuditDetails&ID=#URL.ID#&Year=#URL.Year#">
+                    <a href="#request.serverProtocol##request.serverDomain#/departments/snk5212/IQA/TechnicalAudits_getRole.cfm?page=TechnicalAudits_AuditDetails&ID=#URL.ID#&Year=#URL.Year#">
                     Link to Audit</a><br><br>
 
 					Note: Please use Internet Explorer to follow this link. If IE is not your default browser, right-click the link above and select "Copy Hyperlink" in order to paste this link into IE.<br><br>
@@ -407,7 +407,7 @@ WHERE
                     #ROM# (Regional Operations Manager)</cfif><br /><br />
 
                     Click below to open the audit:<br />
-                    <a href="http://usnbkiqas100p/departments/snk5212/IQA/TechnicalAudits_getRole.cfm?page=TechnicalAudits_AuditDetails&ID=#URL.ID#&Year=#URL.Year#">
+                    <a href="#request.serverProtocol##request.serverDomain#/departments/snk5212/IQA/TechnicalAudits_getRole.cfm?page=TechnicalAudits_AuditDetails&ID=#URL.ID#&Year=#URL.Year#">
                     Link to Audit</a><br /><br />
 
 					Note: Please use Internet Explorer to follow this link. If IE is not your default browser, right-click the link above and select "Copy Hyperlink" in order to paste this link into IE.<br><br>
@@ -603,7 +603,7 @@ WHERE
                     Please proceed with assigning the Appeal Response to a PDE/RLR/SME.<br /><br />
 
 					Click below to open the audit: #varAuditIdentifier#<br />
-					<a href="http://usnbkiqas100p/departments/snk5212/IQA/TechnicalAudits_getRole.cfm?page=TechnicalAudits_AuditDetails&ID=#URL.ID#&Year=#URL.Year#">Link to Audit</a><br /><br />
+					<a href="#request.serverProtocol##request.serverDomain#/departments/snk5212/IQA/TechnicalAudits_getRole.cfm?page=TechnicalAudits_AuditDetails&ID=#URL.ID#&Year=#URL.Year#">Link to Audit</a><br /><br />
 
 					Note: Please use Internet Explorer to follow this link. If IE is not your default browser, right-click the link above and select "Copy Hyperlink" in order to paste this link into IE.<br><br>
 
@@ -653,7 +653,7 @@ WHERE
                     This task has a due date of: #dateformat(NCEnteredDueDate, "mm/dd/yyyy")#<br /><br />
 
                     Click below to open the audit: #varAuditIdentifier#<br />
-					<a href="http://usnbkiqas100p/departments/snk5212/IQA/TechnicalAudits_getRole.cfm?page=TechnicalAudits_AuditDetails&ID=#URL.ID#&Year=#URL.Year#">Link to Audit</a><br /><br />
+					<a href="#request.serverProtocol##request.serverDomain#/departments/snk5212/IQA/TechnicalAudits_getRole.cfm?page=TechnicalAudits_AuditDetails&ID=#URL.ID#&Year=#URL.Year#">Link to Audit</a><br /><br />
 
 					Note: Please use Internet Explorer to follow this link. If IE is not your default browser, right-click the link above and select "Copy Hyperlink" in order to paste this link into IE.<br><br>
                 </cfmail>
@@ -686,7 +686,7 @@ WHERE
                         Due Date for the Corrective Action(s) to be completed: #dateformat(SRCARDueDate, "mm/dd/yyyy")#.<br /><br />
 
                         Click below to open the audit: #varAuditIdentifier#<br />
-                		<a href="http://usnbkiqas100p/departments/snk5212/IQA/TechnicalAudits_getRole.cfm?page=TechnicalAudits_AuditDetails&ID=#URL.ID#&Year=#URL.Year#">Link to Audit</a><br /><br />
+                		<a href="#request.serverProtocol##request.serverDomain#/departments/snk5212/IQA/TechnicalAudits_getRole.cfm?page=TechnicalAudits_AuditDetails&ID=#URL.ID#&Year=#URL.Year#">Link to Audit</a><br /><br />
 
 						Note: Please use Internet Explorer to follow this link. If IE is not your default browser, right-click the link above and select "Copy Hyperlink" in order to paste this link into IE.<br><br>
 
@@ -790,7 +790,7 @@ WHERE
                 </cfif>
 
                 Click below to open the audit: #varAuditIdentifier#<br />
-                <a href="http://usnbkiqas100p/departments/snk5212/IQA/TechnicalAudits_getRole.cfm?page=TechnicalAudits_AuditDetails&ID=#URL.ID#&Year=#URL.Year#">
+                <a href="#request.serverProtocol##request.serverDomain#/departments/snk5212/IQA/TechnicalAudits_getRole.cfm?page=TechnicalAudits_AuditDetails&ID=#URL.ID#&Year=#URL.Year#">
                 Link to Audit
                 </a><br /><br />
 
@@ -944,7 +944,7 @@ WHERE
                     Due Date for the Corrective Action(s) to be completed: #dateformat(SRCARDueDate, "mm/dd/yyyy")#.<br /><br />
 
                     Click below to open the audit: #varAuditIdentifier#<br />
-            <a href="http://usnbkiqas100p/departments/snk5212/IQA/TechnicalAudits_getRole.cfm?page=TechnicalAudits_AuditDetails&ID=#URL.ID#&Year=#URL.Year#">Link to Audit</a><br /><br />
+            <a href="#request.serverProtocol##request.serverDomain#/departments/snk5212/IQA/TechnicalAudits_getRole.cfm?page=TechnicalAudits_AuditDetails&ID=#URL.ID#&Year=#URL.Year#">Link to Audit</a><br /><br />
 
 					Note: Please use Internet Explorer to follow this link. If IE is not your default browser, right-click the link above and select "Copy Hyperlink" in order to paste this link into IE.<br><br>
 
@@ -996,7 +996,7 @@ WHERE
 				</cfif>
 
                 Click below to open the audit: #varAuditIdentifier#<br />
-                <a href="http://usnbkiqas100p/departments/snk5212/IQA/TechnicalAudits_getRole.cfm?page=TechnicalAudits_AuditDetails&ID=#URL.ID#&Year=#URL.Year#">
+                <a href="#request.serverProtocol##request.serverDomain#/departments/snk5212/IQA/TechnicalAudits_getRole.cfm?page=TechnicalAudits_AuditDetails&ID=#URL.ID#&Year=#URL.Year#">
                 Link to Audit
                 </a><br /><br />
 
@@ -1079,7 +1079,7 @@ WHERE
                     Required Action: Audit Ready to be Closed<br /><br />
 
                     Click below to open the audit: #varAuditIdentifier#<br />
-                    <a href="http://usnbkiqas100p/departments/snk5212/IQA/TechnicalAudits_getRole.cfm?page=TechnicalAudits_AuditDetails&ID=#URL.ID#&Year=#URL.Year#">
+                    <a href="#request.serverProtocol##request.serverDomain#/departments/snk5212/IQA/TechnicalAudits_getRole.cfm?page=TechnicalAudits_AuditDetails&ID=#URL.ID#&Year=#URL.Year#">
                     Link to Audit
                     </a><br /><br />
 
@@ -1118,7 +1118,7 @@ WHERE
                     This task has a due date of #dateformat(SRCARClosedDueDate, "mm/dd/yyyy")#<br /><br />
 
                     Click below to open the audit: #varAuditIdentifier#<br />
-                    <a href="http://usnbkiqas100p/departments/snk5212/IQA/TechnicalAudits_getRole.cfm?page=TechnicalAudits_AuditDetails&ID=#URL.ID#&Year=#URL.Year#">
+                    <a href="#request.serverProtocol##request.serverDomain#/departments/snk5212/IQA/TechnicalAudits_getRole.cfm?page=TechnicalAudits_AuditDetails&ID=#URL.ID#&Year=#URL.Year#">
                     Link to Audit
                     </a>
 
@@ -1250,7 +1250,7 @@ WHERE
                     This task has a due date of #dateformat(SRCARVerifiedDueDate, "mm/dd/yyyy")#<br /><br />
 
                     Click below to open the audit: #varAuditIdentifier#<br />
-                    <a href="http://usnbkiqas100p/departments/snk5212/IQA/TechnicalAudits_getRole.cfm?page=TechnicalAudits_AuditDetails&ID=#URL.ID#&Year=#URL.Year#">
+                    <a href="#request.serverProtocol##request.serverDomain#/departments/snk5212/IQA/TechnicalAudits_getRole.cfm?page=TechnicalAudits_AuditDetails&ID=#URL.ID#&Year=#URL.Year#">
                     Link to Audit
                     </a><br><br>
 
@@ -1287,7 +1287,7 @@ WHERE
                     This task has a new due date of #dateformat(SRCARClosedDueDate, "mm/dd/yyyy")#<br /><br />
 
                     Click below to open the audit: #varAuditIdentifier#<br />
-                    <a href="http://usnbkiqas100p/departments/snk5212/IQA/TechnicalAudits_getRole.cfm?page=TechnicalAudits_AuditDetails&ID=#URL.ID#&Year=#URL.Year#">
+                    <a href="#request.serverProtocol##request.serverDomain#/departments/snk5212/IQA/TechnicalAudits_getRole.cfm?page=TechnicalAudits_AuditDetails&ID=#URL.ID#&Year=#URL.Year#">
                     Link to Audit</a><br><br>
 
 					Note: Please use Internet Explorer to follow this link. If IE is not your default browser, right-click the link above and select "Copy Hyperlink" in order to paste this link into IE.<br><br>
@@ -1397,7 +1397,7 @@ WHERE
                     This e-mail is notification that corrective actions have been completed and verified, and this audit is ready to be closed.<br /><br />
 
                     Click below to open the audit: #varAuditIdentifier#<br />
-                    <a href="http://usnbkiqas100p/departments/snk5212/IQA/TechnicalAudits_getRole.cfm?page=TechnicalAudits_AuditDetails&ID=#URL.ID#&Year=#URL.Year#">
+                    <a href="#request.serverProtocol##request.serverDomain#/departments/snk5212/IQA/TechnicalAudits_getRole.cfm?page=TechnicalAudits_AuditDetails&ID=#URL.ID#&Year=#URL.Year#">
                     Link to Audit
                     </a><Br><br>
 
@@ -1433,7 +1433,7 @@ WHERE
                     This task has a new due date of #dateformat(Form.DueDate, "mm/dd/yyyy")#<br /><br />
 
                     Click below to open the audit: #varAuditIdentifier#<br />
-                    <a href="http://usnbkiqas100p/departments/snk5212/IQA/TechnicalAudits_getRole.cfm?page=TechnicalAudits_AuditDetails&ID=#URL.ID#&Year=#URL.Year#">
+                    <a href="#request.serverProtocol##request.serverDomain#/departments/snk5212/IQA/TechnicalAudits_getRole.cfm?page=TechnicalAudits_AuditDetails&ID=#URL.ID#&Year=#URL.Year#">
                     Link to Audit</a><br><br>
 
 					Note: Please use Internet Explorer to follow this link. If IE is not your default browser, right-click the link above and select "Copy Hyperlink" in order to paste this link into IE.<br><br>

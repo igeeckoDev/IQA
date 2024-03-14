@@ -8,7 +8,7 @@
 	<cfset Request.ListsMenu = "ListsMenu.cfm">
 	<cfset Request.ProgMenu = "_ProgMenu.cfm">
     <!--- /// --->
-
+    <cfinclude template="../../../environment.cfm">
 	<cfif SUPER.OnRequestStart( ARGUMENTS.Page )>
     <!--- Store the sub root directory folder. --->
         <cfset REQUEST.SubDirectory = GetDirectoryFromPath(GetCurrentTemplatePath()) />

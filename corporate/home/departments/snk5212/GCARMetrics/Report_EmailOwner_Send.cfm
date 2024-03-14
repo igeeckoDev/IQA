@@ -188,9 +188,9 @@ WHERE ID = #newID.newID#
 <cfinput type="text" name="Subject" value="#varSubject#" message="Required Field - Subject" required="Yes" size="75"><br><br>
 
 <cfif url.ID EQ "All" OR url.ID eq "Select">
-	<cfset varLinkTo = "http://usnbkiqas100p/departments/snk5212/GCARMetrics/Report.cfm">
+	<cfset varLinkTo = "#request.serverProtocol##request.serverDomain#/departments/snk5212/GCARMetrics/Report.cfm">
 <cfelse>
-	<cfset varLinkTo = "http://usnbkiqas100p/departments/snk5212/GCARMetrics/Report_Details.cfm?ID=#URL.ID#">
+	<cfset varLinkTo = "#request.serverProtocol##request.serverDomain#/departments/snk5212/GCARMetrics/Report_Details.cfm?ID=#URL.ID#">
 </cfif>
 
 <b>Link To Report</b>:<br />

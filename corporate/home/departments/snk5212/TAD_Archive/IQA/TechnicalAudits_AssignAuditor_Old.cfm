@@ -162,7 +162,7 @@ ORDER BY Auditor
     <cfelse>
     	<cfoutput>
         Page Accessed:<Br>
-        http://usnbkiqas100p/#cgi.script_name#?#CGI.Query_String#<br><br>
+        #request.serverProtocol##request.serverDomain#/#cgi.script_name#?#CGI.Query_String#<br><br>
         </cfoutput>
         You do not have access to this page.
     </cfif>
@@ -170,7 +170,7 @@ ORDER BY Auditor
 <cfelse>
    	<cfoutput>
 		Page Accessed:<br>
-        http://usnbkiqas100p/#cgi.script_name#?#CGI.Query_String#<br><br>
+        #request.serverProtocol##request.serverDomain#/#cgi.script_name#?#CGI.Query_String#<br><br>
     </cfoutput>
 	Invalid Page. Reason: Missing Information.
 </cfif>

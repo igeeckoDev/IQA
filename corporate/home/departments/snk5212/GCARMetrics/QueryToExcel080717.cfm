@@ -724,15 +724,15 @@ NOTE: It may take 5-10 seconds to open the file in Excel.<br><br>
 2. Select File->Save As-><br>
 3. Type in a name for the file.<br>
 4. Select 'Microsoft Excel Workbook' from 'Save as Type' drop down box.<br>
-</cfoutput>
+
 
 <br>
 <b>Note - using browsers other than Internet Explorer (IE)</b> - The system was designed to be used with <u>Internet Explorer</u>. Some differences may exist when using other browsers.<br><br>
 
-If you are having trouble with exporting CAR data with a browser other than IE, try using IE and follow the steps in the <a href="http://usnbkiqas100p/departments/snk5212/GCARMetrics/Overview.cfm#5" target="_blank">GCAR Metrics Overview, Item 5 "Exporting GCAR Data"</a>, item 1 and 2.<Br>
+If you are having trouble with exporting CAR data with a browser other than IE, try using IE and follow the steps in the <a href="#request.serverProtocol##request.serverDomain#/departments/snk5212/GCARMetrics/Overview.cfm##5" target="_blank">GCAR Metrics Overview, Item 5 "Exporting GCAR Data"</a>, item 1 and 2.<Br>
 
 <cfelse>
-<cfoutput>
+
 CARs selected for output to Excel: <B>#qRecordCount.CARCount#</B><br /><br />
 
 Data output to Excel requires a minimum of 1 CAR and is restricted to a maximum of 1650 CARs.<br /><br />

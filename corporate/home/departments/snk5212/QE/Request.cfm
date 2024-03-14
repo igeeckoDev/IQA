@@ -89,7 +89,7 @@ WHERE ID = #query.newid#
 #dateformat(posted, "mm/dd/yyyy")# - A CAR Admin Request has been logged in the CAR Admin web site by #Name#.
 
 View this request -
-http://usnbkiqas100p/departments/snk5212/QE/RequestView.cfm?ID=#ID#
+#request.serverProtocol##request.serverDomain#/departments/snk5212/QE/RequestView.cfm?ID=#ID#
 
 QE Staff: To manage this request, please log in to the CAR Admin Web Site.
 </cfmail>
@@ -101,7 +101,7 @@ Your request to become a CAR Champion will be processed within a week of receipt
 
 If you have any questions or comments, please contact Chery Adams.<br /><br />
 
-<a href="http://usnbkiqas100p/departments/snk5212/QE/RequestView.cfm?ID=#ID#">View Request</a>
+<a href="#request.serverProtocol##request.serverDomain#/departments/snk5212/QE/RequestView.cfm?ID=#ID#">View Request</a>
 </cfmail>
 
 <cfoutput>

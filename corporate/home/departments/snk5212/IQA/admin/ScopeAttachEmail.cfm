@@ -125,7 +125,7 @@ Notes:<br>
 <u>Audit Area</u>: #Trim(Area)#<br>
 <u>Location</u>: #Trim(Officename)#<br>
 <u>Lead Auditor</u>: #LeadAuditor#<br>
-<u>Audit Details</u>: http://usnbkiqas100p/departments/snk5212/IQA/auditdetails.cfm?ID=#URL.ID#&Year=#URL.Year#<br><br>
+<u>Audit Details</u>: #request.serverProtocol##request.serverDomain#/departments/snk5212/IQA/auditdetails.cfm?ID=#URL.ID#&Year=#URL.Year#<br><br>
 
 Please contact #LeadAuditor# with any questions or issues.
 </cfmail>

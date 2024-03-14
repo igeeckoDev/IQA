@@ -5,7 +5,7 @@
 	<!--- not used --->
 	<cfset Request.AdminMenu = "menu.cfm">
     <!--- /// --->
-    
+    <cfinclude template="../../../environment.cfm">
     <cfset REQUEST.CARAdminFilesPath = "#request.applicationFolder#\corporate\home\departments\snk5212\QE\admin\CARAdmin\">
 
 	<cfif SUPER.OnRequestStart( ARGUMENTS.Page )>

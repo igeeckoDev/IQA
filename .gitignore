@@ -14,3 +14,8 @@
 # Ignore Excel spreadsheets
 *.xls
 *.xlsx
+
+# Ignore videos and zips
+*.mp4
+*.zip
+*.wmv
